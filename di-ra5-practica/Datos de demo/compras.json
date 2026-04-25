@@ -1,0 +1,456 @@
+[
+  {
+    "Id": 1,
+    "IdProducto": 101,
+    "Cantidad": 5,
+    "FechaCompra": "2026-01-01T10:00:00",
+    "PrecioUnitario": 12.5,
+    "Proveedor": "Proveedor A",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 2,
+    "IdProducto": 102,
+    "Cantidad": 3,
+    "FechaCompra": "2026-01-02T11:00:00",
+    "PrecioUnitario": 8.99,
+    "Proveedor": "Proveedor B",
+    "MetodoPago": "Efectivo"
+  },
+  {
+    "Id": 3,
+    "IdProducto": 103,
+    "Cantidad": 10,
+    "FechaCompra": "2026-01-03T12:00:00",
+    "PrecioUnitario": 5.75,
+    "Proveedor": "Proveedor C",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 4,
+    "IdProducto": 104,
+    "Cantidad": 2,
+    "FechaCompra": "2026-01-04T13:00:00",
+    "PrecioUnitario": 20.0,
+    "Proveedor": "Proveedor D",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 5,
+    "IdProducto": 105,
+    "Cantidad": 7,
+    "FechaCompra": "2026-01-05T14:00:00",
+    "PrecioUnitario": 15.3,
+    "Proveedor": "Proveedor E",
+    "MetodoPago": "Bizum"
+  },
+  {
+    "Id": 6,
+    "IdProducto": 106,
+    "Cantidad": 1,
+    "FechaCompra": "2026-01-06T09:30:00",
+    "PrecioUnitario": 50.0,
+    "Proveedor": "Proveedor F",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 7,
+    "IdProducto": 107,
+    "Cantidad": 4,
+    "FechaCompra": "2026-01-07T10:45:00",
+    "PrecioUnitario": 9.99,
+    "Proveedor": "Proveedor G",
+    "MetodoPago": "Efectivo"
+  },
+  {
+    "Id": 8,
+    "IdProducto": 108,
+    "Cantidad": 6,
+    "FechaCompra": "2026-01-08T11:15:00",
+    "PrecioUnitario": 7.25,
+    "Proveedor": "Proveedor H",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 9,
+    "IdProducto": 109,
+    "Cantidad": 8,
+    "FechaCompra": "2026-01-09T12:30:00",
+    "PrecioUnitario": 11.4,
+    "Proveedor": "Proveedor I",
+    "MetodoPago": "Bizum"
+  },
+  {
+    "Id": 10,
+    "IdProducto": 110,
+    "Cantidad": 2,
+    "FechaCompra": "2026-01-10T13:45:00",
+    "PrecioUnitario": 30.0,
+    "Proveedor": "Proveedor J",
+    "MetodoPago": "Transferencia"
+  },
+
+  {
+    "Id": 11,
+    "IdProducto": 111,
+    "Cantidad": 3,
+    "FechaCompra": "2026-01-11T10:00:00",
+    "PrecioUnitario": 18.2,
+    "Proveedor": "Proveedor K",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 12,
+    "IdProducto": 112,
+    "Cantidad": 6,
+    "FechaCompra": "2026-01-12T11:00:00",
+    "PrecioUnitario": 6.8,
+    "Proveedor": "Proveedor L",
+    "MetodoPago": "Efectivo"
+  },
+  {
+    "Id": 13,
+    "IdProducto": 113,
+    "Cantidad": 9,
+    "FechaCompra": "2026-01-13T12:00:00",
+    "PrecioUnitario": 4.5,
+    "Proveedor": "Proveedor M",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 14,
+    "IdProducto": 114,
+    "Cantidad": 2,
+    "FechaCompra": "2026-01-14T13:00:00",
+    "PrecioUnitario": 60.0,
+    "Proveedor": "Proveedor N",
+    "MetodoPago": "Bizum"
+  },
+  {
+    "Id": 15,
+    "IdProducto": 115,
+    "Cantidad": 5,
+    "FechaCompra": "2026-01-15T14:00:00",
+    "PrecioUnitario": 22.3,
+    "Proveedor": "Proveedor O",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 16,
+    "IdProducto": 116,
+    "Cantidad": 7,
+    "FechaCompra": "2026-01-16T09:00:00",
+    "PrecioUnitario": 3.99,
+    "Proveedor": "Proveedor P",
+    "MetodoPago": "Efectivo"
+  },
+  {
+    "Id": 17,
+    "IdProducto": 117,
+    "Cantidad": 4,
+    "FechaCompra": "2026-01-17T10:30:00",
+    "PrecioUnitario": 12.0,
+    "Proveedor": "Proveedor Q",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 18,
+    "IdProducto": 118,
+    "Cantidad": 8,
+    "FechaCompra": "2026-01-18T11:45:00",
+    "PrecioUnitario": 7.7,
+    "Proveedor": "Proveedor R",
+    "MetodoPago": "Bizum"
+  },
+  {
+    "Id": 19,
+    "IdProducto": 119,
+    "Cantidad": 1,
+    "FechaCompra": "2026-01-19T12:15:00",
+    "PrecioUnitario": 100.0,
+    "Proveedor": "Proveedor S",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 20,
+    "IdProducto": 120,
+    "Cantidad": 6,
+    "FechaCompra": "2026-01-20T13:30:00",
+    "PrecioUnitario": 9.5,
+    "Proveedor": "Proveedor T",
+    "MetodoPago": "Efectivo"
+  },
+
+  {
+    "Id": 21,
+    "IdProducto": 121,
+    "Cantidad": 2,
+    "FechaCompra": "2026-01-21T10:00:00",
+    "PrecioUnitario": 35.0,
+    "Proveedor": "Proveedor U",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 22,
+    "IdProducto": 122,
+    "Cantidad": 3,
+    "FechaCompra": "2026-01-22T11:00:00",
+    "PrecioUnitario": 14.0,
+    "Proveedor": "Proveedor V",
+    "MetodoPago": "Bizum"
+  },
+  {
+    "Id": 23,
+    "IdProducto": 123,
+    "Cantidad": 5,
+    "FechaCompra": "2026-01-23T12:00:00",
+    "PrecioUnitario": 8.0,
+    "Proveedor": "Proveedor W",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 24,
+    "IdProducto": 124,
+    "Cantidad": 7,
+    "FechaCompra": "2026-01-24T13:00:00",
+    "PrecioUnitario": 6.3,
+    "Proveedor": "Proveedor X",
+    "MetodoPago": "Efectivo"
+  },
+  {
+    "Id": 25,
+    "IdProducto": 125,
+    "Cantidad": 4,
+    "FechaCompra": "2026-01-25T14:00:00",
+    "PrecioUnitario": 19.9,
+    "Proveedor": "Proveedor Y",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 26,
+    "IdProducto": 126,
+    "Cantidad": 6,
+    "FechaCompra": "2026-01-26T09:30:00",
+    "PrecioUnitario": 11.1,
+    "Proveedor": "Proveedor Z",
+    "MetodoPago": "Bizum"
+  },
+  {
+    "Id": 27,
+    "IdProducto": 127,
+    "Cantidad": 3,
+    "FechaCompra": "2026-01-27T10:45:00",
+    "PrecioUnitario": 25.0,
+    "Proveedor": "Proveedor AA",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 28,
+    "IdProducto": 128,
+    "Cantidad": 8,
+    "FechaCompra": "2026-01-28T11:15:00",
+    "PrecioUnitario": 4.2,
+    "Proveedor": "Proveedor AB",
+    "MetodoPago": "Efectivo"
+  },
+  {
+    "Id": 29,
+    "IdProducto": 129,
+    "Cantidad": 9,
+    "FechaCompra": "2026-01-29T12:30:00",
+    "PrecioUnitario": 3.5,
+    "Proveedor": "Proveedor AC",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 30,
+    "IdProducto": 130,
+    "Cantidad": 1,
+    "FechaCompra": "2026-01-30T13:45:00",
+    "PrecioUnitario": 200.0,
+    "Proveedor": "Proveedor AD",
+    "MetodoPago": "Bizum"
+  },
+
+  {
+    "Id": 31,
+    "IdProducto": 131,
+    "Cantidad": 5,
+    "FechaCompra": "2026-02-01T10:00:00",
+    "PrecioUnitario": 13.5,
+    "Proveedor": "Proveedor AE",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 32,
+    "IdProducto": 132,
+    "Cantidad": 2,
+    "FechaCompra": "2026-02-02T11:00:00",
+    "PrecioUnitario": 40.0,
+    "Proveedor": "Proveedor AF",
+    "MetodoPago": "Efectivo"
+  },
+  {
+    "Id": 33,
+    "IdProducto": 133,
+    "Cantidad": 6,
+    "FechaCompra": "2026-02-03T12:00:00",
+    "PrecioUnitario": 7.8,
+    "Proveedor": "Proveedor AG",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 34,
+    "IdProducto": 134,
+    "Cantidad": 7,
+    "FechaCompra": "2026-02-04T13:00:00",
+    "PrecioUnitario": 6.9,
+    "Proveedor": "Proveedor AH",
+    "MetodoPago": "Bizum"
+  },
+  {
+    "Id": 35,
+    "IdProducto": 135,
+    "Cantidad": 3,
+    "FechaCompra": "2026-02-05T14:00:00",
+    "PrecioUnitario": 17.0,
+    "Proveedor": "Proveedor AI",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 36,
+    "IdProducto": 136,
+    "Cantidad": 4,
+    "FechaCompra": "2026-02-06T09:00:00",
+    "PrecioUnitario": 21.0,
+    "Proveedor": "Proveedor AJ",
+    "MetodoPago": "Efectivo"
+  },
+  {
+    "Id": 37,
+    "IdProducto": 137,
+    "Cantidad": 8,
+    "FechaCompra": "2026-02-07T10:30:00",
+    "PrecioUnitario": 5.6,
+    "Proveedor": "Proveedor AK",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 38,
+    "IdProducto": 138,
+    "Cantidad": 9,
+    "FechaCompra": "2026-02-08T11:45:00",
+    "PrecioUnitario": 4.4,
+    "Proveedor": "Proveedor AL",
+    "MetodoPago": "Bizum"
+  },
+  {
+    "Id": 39,
+    "IdProducto": 139,
+    "Cantidad": 2,
+    "FechaCompra": "2026-02-09T12:15:00",
+    "PrecioUnitario": 75.0,
+    "Proveedor": "Proveedor AM",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 40,
+    "IdProducto": 140,
+    "Cantidad": 6,
+    "FechaCompra": "2026-02-10T13:30:00",
+    "PrecioUnitario": 10.5,
+    "Proveedor": "Proveedor AN",
+    "MetodoPago": "Efectivo"
+  },
+
+  {
+    "Id": 41,
+    "IdProducto": 141,
+    "Cantidad": 1,
+    "FechaCompra": "2026-02-11T10:00:00",
+    "PrecioUnitario": 150.0,
+    "Proveedor": "Proveedor AO",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 42,
+    "IdProducto": 142,
+    "Cantidad": 3,
+    "FechaCompra": "2026-02-12T11:00:00",
+    "PrecioUnitario": 18.0,
+    "Proveedor": "Proveedor AP",
+    "MetodoPago": "Bizum"
+  },
+  {
+    "Id": 43,
+    "IdProducto": 143,
+    "Cantidad": 7,
+    "FechaCompra": "2026-02-13T12:00:00",
+    "PrecioUnitario": 6.0,
+    "Proveedor": "Proveedor AQ",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 44,
+    "IdProducto": 144,
+    "Cantidad": 5,
+    "FechaCompra": "2026-02-14T13:00:00",
+    "PrecioUnitario": 9.9,
+    "Proveedor": "Proveedor AR",
+    "MetodoPago": "Efectivo"
+  },
+  {
+    "Id": 45,
+    "IdProducto": 145,
+    "Cantidad": 4,
+    "FechaCompra": "2026-02-15T14:00:00",
+    "PrecioUnitario": 23.5,
+    "Proveedor": "Proveedor AS",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 46,
+    "IdProducto": 146,
+    "Cantidad": 6,
+    "FechaCompra": "2026-02-16T09:30:00",
+    "PrecioUnitario": 11.7,
+    "Proveedor": "Proveedor AT",
+    "MetodoPago": "Bizum"
+  },
+  {
+    "Id": 47,
+    "IdProducto": 147,
+    "Cantidad": 8,
+    "FechaCompra": "2026-02-17T10:45:00",
+    "PrecioUnitario": 5.2,
+    "Proveedor": "Proveedor AU",
+    "MetodoPago": "Tarjeta"
+  },
+  {
+    "Id": 48,
+    "IdProducto": 148,
+    "Cantidad": 2,
+    "FechaCompra": "2026-02-18T11:15:00",
+    "PrecioUnitario": 60.0,
+    "Proveedor": "Proveedor AV",
+    "MetodoPago": "Efectivo"
+  },
+  {
+    "Id": 49,
+    "IdProducto": 149,
+    "Cantidad": 9,
+    "FechaCompra": "2026-02-19T12:30:00",
+    "PrecioUnitario": 3.8,
+    "Proveedor": "Proveedor AW",
+    "MetodoPago": "Transferencia"
+  },
+  {
+    "Id": 50,
+    "IdProducto": 150,
+    "Cantidad": 10,
+    "FechaCompra": "2026-02-20T13:45:00",
+    "PrecioUnitario": 2.9,
+    "Proveedor": "Proveedor AX",
+    "MetodoPago": "Bizum"
+  }
+]

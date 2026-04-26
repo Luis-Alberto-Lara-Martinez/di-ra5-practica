@@ -35,5 +35,18 @@ namespace di_ra5_practica
                 MessageBox.Show($"Error cargando el reporte: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void todosLosDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vistas.Tablas.VistaTabla1 vistaTabla1 = new Vistas.Tablas.VistaTabla1();   
+
+            vistaTabla1.ShowDialog();
+
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

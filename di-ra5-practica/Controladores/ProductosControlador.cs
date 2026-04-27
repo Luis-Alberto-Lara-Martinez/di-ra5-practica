@@ -11,28 +11,28 @@ namespace di_ra5_practica.Controladores
     {
         public static List<Productos> listaProductos = new List<Productos>();
 
-        public List<Productos> cargarProductos()
+        public static List<Productos> cargarProductos()
         {
             try
             {
-                if (File.Exists("ventas.json"))
-                {
-               
-                    string jsonString = File.ReadAllText("Datos de demo/compras.json");
-                   
-                   
+                string projectDir = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "..", "..");
+                string filePath = Path.Combine(projectDir, "Datos de demo", "productos.json");
+                filePath = Path.GetFullPath(filePath);
 
-                     listaProductos = JsonSerializer.Deserialize<List<Productos>>(jsonString);
+                if (!File.Exists(filePath))
+                {
+                    throw new Exception($"No existe el archivo productos.json en: {filePath}");
                 }
+
+                string jsonString = File.ReadAllText(filePath);
+                listaProductos = JsonSerializer.Deserialize<List<Productos>>(jsonString) ?? new List<Productos>();
+
+                return listaProductos;
             }
             catch (Exception e)
             {
-                // Capturar y mostrar cualquier error ocurrido
-                Console.WriteLine("Error al cargar ventas desde JSON: " + e.Message);
+                throw new Exception(e.Message);
             }
-
-
-            return new List<Productos>();
         }
     }
 }

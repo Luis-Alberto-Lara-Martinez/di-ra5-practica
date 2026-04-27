@@ -1,0 +1,356 @@
+[
+  {
+    "Id": 101,
+    "Nombre": "Portátil Ultrabook 14\"",
+    "Categoria": "Tecnología",
+    "Precio": 899.99,
+    "Stock": 15
+  },
+  {
+    "Id": 102,
+    "Nombre": "Ratón Inalámbrico",
+    "Categoria": "Tecnología",
+    "Precio": 24.99,
+    "Stock": 80
+  },
+  {
+    "Id": 103,
+    "Nombre": "Teclado Mecánico RGB",
+    "Categoria": "Tecnología",
+    "Precio": 79.90,
+    "Stock": 45
+  },
+  {
+    "Id": 104,
+    "Nombre": "Monitor 27\" 4K",
+    "Categoria": "Tecnología",
+    "Precio": 329.00,
+    "Stock": 22
+  },
+  {
+    "Id": 105,
+    "Nombre": "Disco SSD 1TB",
+    "Categoria": "Tecnología",
+    "Precio": 89.50,
+    "Stock": 60
+  },
+  {
+    "Id": 106,
+    "Nombre": "Memoria USB 128GB",
+    "Categoria": "Tecnología",
+    "Precio": 19.99,
+    "Stock": 120
+  },
+  {
+    "Id": 107,
+    "Nombre": "Auriculares Bluetooth",
+    "Categoria": "Tecnología",
+    "Precio": 59.95,
+    "Stock": 55
+  },
+  {
+    "Id": 108,
+    "Nombre": "Altavoz Inteligente",
+    "Categoria": "Tecnología",
+    "Precio": 49.99,
+    "Stock": 40
+  },
+  {
+    "Id": 109,
+    "Nombre": "Smartphone 5G",
+    "Categoria": "Tecnología",
+    "Precio": 699.00,
+    "Stock": 30
+  },
+  {
+    "Id": 110,
+    "Nombre": "Tablet 10\"",
+    "Categoria": "Tecnología",
+    "Precio": 299.99,
+    "Stock": 28
+  },
+
+  {
+    "Id": 111,
+    "Nombre": "Webcam Full HD",
+    "Categoria": "Tecnología",
+    "Precio": 39.90,
+    "Stock": 70
+  },
+  {
+    "Id": 112,
+    "Nombre": "Micrófono USB",
+    "Categoria": "Tecnología",
+    "Precio": 54.90,
+    "Stock": 34
+  },
+  {
+    "Id": 113,
+    "Nombre": "Impresora Multifunción",
+    "Categoria": "Tecnología",
+    "Precio": 149.99,
+    "Stock": 18
+  },
+  {
+    "Id": 114,
+    "Nombre": "Router Wi-Fi 6",
+    "Categoria": "Tecnología",
+    "Precio": 119.00,
+    "Stock": 26
+  },
+  {
+    "Id": 115,
+    "Nombre": "Switch de Red 8 Puertos",
+    "Categoria": "Tecnología",
+    "Precio": 34.50,
+    "Stock": 50
+  },
+  {
+    "Id": 116,
+    "Nombre": "Cámara de Seguridad IP",
+    "Categoria": "Tecnología",
+    "Precio": 69.90,
+    "Stock": 37
+  },
+  {
+    "Id": 117,
+    "Nombre": "Smartwatch Deportivo",
+    "Categoria": "Tecnología",
+    "Precio": 129.99,
+    "Stock": 32
+  },
+  {
+    "Id": 118,
+    "Nombre": "Pulsera de Actividad",
+    "Categoria": "Tecnología",
+    "Precio": 39.99,
+    "Stock": 65
+  },
+  {
+    "Id": 119,
+    "Nombre": "Consola de Videojuegos",
+    "Categoria": "Tecnología",
+    "Precio": 499.00,
+    "Stock": 12
+  },
+  {
+    "Id": 120,
+    "Nombre": "Mando Inalámbrico",
+    "Categoria": "Tecnología",
+    "Precio": 59.00,
+    "Stock": 47
+  },
+
+  {
+    "Id": 121,
+    "Nombre": "Tarjeta Gráfica 12GB",
+    "Categoria": "Tecnología",
+    "Precio": 579.00,
+    "Stock": 10
+  },
+  {
+    "Id": 122,
+    "Nombre": "Procesador 8 Núcleos",
+    "Categoria": "Tecnología",
+    "Precio": 289.00,
+    "Stock": 16
+  },
+  {
+    "Id": 123,
+    "Nombre": "Placa Base ATX",
+    "Categoria": "Tecnología",
+    "Precio": 159.00,
+    "Stock": 20
+  },
+  {
+    "Id": 124,
+    "Nombre": "Memoria RAM 16GB",
+    "Categoria": "Tecnología",
+    "Precio": 64.99,
+    "Stock": 72
+  },
+  {
+    "Id": 125,
+    "Nombre": "Fuente de Alimentación 750W",
+    "Categoria": "Tecnología",
+    "Precio": 89.90,
+    "Stock": 25
+  },
+  {
+    "Id": 126,
+    "Nombre": "Caja Torre Gaming",
+    "Categoria": "Tecnología",
+    "Precio": 99.50,
+    "Stock": 19
+  },
+  {
+    "Id": 127,
+    "Nombre": "Refrigeración Líquida CPU",
+    "Categoria": "Tecnología",
+    "Precio": 109.00,
+    "Stock": 14
+  },
+  {
+    "Id": 128,
+    "Nombre": "Disco Duro Externo 2TB",
+    "Categoria": "Tecnología",
+    "Precio": 79.99,
+    "Stock": 44
+  },
+  {
+    "Id": 129,
+    "Nombre": "Hub USB-C",
+    "Categoria": "Tecnología",
+    "Precio": 29.99,
+    "Stock": 90
+  },
+  {
+    "Id": 130,
+    "Nombre": "Docking Station Portátil",
+    "Categoria": "Tecnología",
+    "Precio": 139.00,
+    "Stock": 17
+  },
+
+  {
+    "Id": 131,
+    "Nombre": "Proyector Full HD",
+    "Categoria": "Tecnología",
+    "Precio": 399.00,
+    "Stock": 11
+  },
+  {
+    "Id": 132,
+    "Nombre": "Pantalla Portátil 15.6\"",
+    "Categoria": "Tecnología",
+    "Precio": 189.90,
+    "Stock": 23
+  },
+  {
+    "Id": 133,
+    "Nombre": "Lápiz Digital",
+    "Categoria": "Tecnología",
+    "Precio": 79.00,
+    "Stock": 36
+  },
+  {
+    "Id": 134,
+    "Nombre": "Cargador Rápido 65W",
+    "Categoria": "Tecnología",
+    "Precio": 24.50,
+    "Stock": 95
+  },
+  {
+    "Id": 135,
+    "Nombre": "Power Bank 20000mAh",
+    "Categoria": "Tecnología",
+    "Precio": 34.90,
+    "Stock": 67
+  },
+  {
+    "Id": 136,
+    "Nombre": "Cable HDMI 2.1",
+    "Categoria": "Tecnología",
+    "Precio": 12.99,
+    "Stock": 150
+  },
+  {
+    "Id": 137,
+    "Nombre": "Cable USB-C a USB-C",
+    "Categoria": "Tecnología",
+    "Precio": 9.99,
+    "Stock": 200
+  },
+  {
+    "Id": 138,
+    "Nombre": "Soporte para Portátil",
+    "Categoria": "Tecnología",
+    "Precio": 22.00,
+    "Stock": 58
+  },
+  {
+    "Id": 139,
+    "Nombre": "Base de Refrigeración Laptop",
+    "Categoria": "Tecnología",
+    "Precio": 27.50,
+    "Stock": 41
+  },
+  {
+    "Id": 140,
+    "Nombre": "Silla Gaming",
+    "Categoria": "Tecnología",
+    "Precio": 189.00,
+    "Stock": 13
+  },
+
+  {
+    "Id": 141,
+    "Nombre": "Escritorio Elevable",
+    "Categoria": "Tecnología",
+    "Precio": 249.00,
+    "Stock": 9
+  },
+  {
+    "Id": 142,
+    "Nombre": "Lámpara LED Inteligente",
+    "Categoria": "Tecnología",
+    "Precio": 29.90,
+    "Stock": 73
+  },
+  {
+    "Id": 143,
+    "Nombre": "Bombilla Wi-Fi RGB",
+    "Categoria": "Tecnología",
+    "Precio": 14.90,
+    "Stock": 130
+  },
+  {
+    "Id": 144,
+    "Nombre": "Enchufe Inteligente",
+    "Categoria": "Tecnología",
+    "Precio": 16.50,
+    "Stock": 110
+  },
+  {
+    "Id": 145,
+    "Nombre": "Termostato Inteligente",
+    "Categoria": "Tecnología",
+    "Precio": 119.99,
+    "Stock": 21
+  },
+  {
+    "Id": 146,
+    "Nombre": "Sensor de Movimiento Wi-Fi",
+    "Categoria": "Tecnología",
+    "Precio": 21.99,
+    "Stock": 64
+  },
+  {
+    "Id": 147,
+    "Nombre": "Cerradura Inteligente",
+    "Categoria": "Tecnología",
+    "Precio": 179.00,
+    "Stock": 8
+  },
+  {
+    "Id": 148,
+    "Nombre": "Timbre con Cámara",
+    "Categoria": "Tecnología",
+    "Precio": 99.00,
+    "Stock": 27
+  },
+  {
+    "Id": 149,
+    "Nombre": "Gafas de Realidad Virtual",
+    "Categoria": "Tecnología",
+    "Precio": 349.00,
+    "Stock": 6
+  },
+  {
+    "Id": 150,
+    "Nombre": "Dron con Cámara 4K",
+    "Categoria": "Tecnología",
+    "Precio": 459.00,
+    "Stock": 5
+  }
+]

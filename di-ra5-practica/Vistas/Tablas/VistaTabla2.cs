@@ -5,21 +5,21 @@ using System.Windows.Forms;
 
 namespace di_ra5_practica.Vistas.Tablas
 {
-    public partial class VistaTabla1 : Form
+    public partial class VistaTabla2 : Form
     {
-        public VistaTabla1()
+        public VistaTabla2()
         {
             InitializeComponent();
-            this.Load += VistaTabla1_Load;
+            this.Load += VistaTabla2_Load;
         }
 
-        private void VistaTabla1_Load(object sender, EventArgs e)
+        private void VistaTabla2_Load(object sender, EventArgs e)
         {
            
-                List<Modelos.Compras> compras = ComprasControlador.cargarCompras();
+                List<Modelos.Productos> productos = ProductosControlador.cargarProductos();
 
-            dataGridView1.DataSource = null;
-                dataGridView1.DataSource = compras;
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = productos;
             
         }
 

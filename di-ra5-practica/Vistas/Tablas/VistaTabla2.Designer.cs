@@ -1,6 +1,6 @@
 ﻿namespace di_ra5_practica.Vistas.Tablas
 {
-    partial class VistaTabla1
+    partial class VistaTabla2
     {
         /// <summary>
         /// Required designer variable.
@@ -37,32 +37,32 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(350, 9);
+            this.label1.Location = new System.Drawing.Point(351, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(444, 35);
             this.label1.TabIndex = 0;
-            this.label1.Text = "1. Tabla todos los datos de Compras";
+            this.label1.Text = "2. Tabla todos los datos de Productos";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(26, 47);
+            this.dataGridView1.Location = new System.Drawing.Point(22, 47);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1044, 404);
+            this.dataGridView1.Size = new System.Drawing.Size(1044, 392);
             this.dataGridView1.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(852, 457);
+            this.button1.Location = new System.Drawing.Point(855, 462);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(198, 69);
+            this.button1.Size = new System.Drawing.Size(198, 64);
             this.button1.TabIndex = 2;
             this.button1.Text = "Salir";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // VistaTabla1
+            // VistaTabla2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -70,7 +70,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Name = "VistaTabla1";
+            this.Name = "VistaTabla2";
             this.Text = "VistaTabla1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

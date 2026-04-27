@@ -113,8 +113,9 @@
             // todosLosDatosProductosToolStripMenuItem
             // 
             this.todosLosDatosProductosToolStripMenuItem.Name = "todosLosDatosProductosToolStripMenuItem";
-            this.todosLosDatosProductosToolStripMenuItem.Size = new System.Drawing.Size(233, 22);
+            this.todosLosDatosProductosToolStripMenuItem.Size = new System.Drawing.Size(338, 22);
             this.todosLosDatosProductosToolStripMenuItem.Text = "2. Todos los datos (Productos)";
+            this.todosLosDatosProductosToolStripMenuItem.Click += new System.EventHandler(this.todosLosDatosProductosToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -144,7 +145,7 @@
             // 
             this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Name = "comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem";
             this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Size = new System.Drawing.Size(338, 22);
-            this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Text = "7. Productos (Filtro 5)";
+            this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Text = "7. Productos por categoria Periféricos (Filtro 5)";
             // 
             // comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem
             // 

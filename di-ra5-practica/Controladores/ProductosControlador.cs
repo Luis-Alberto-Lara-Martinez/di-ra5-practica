@@ -15,17 +15,25 @@ namespace di_ra5_practica.Controladores
         {
             try
             {
-                string projectDir = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "..", "..");
+                string projectDir = Path.Combine(
+                    Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location),
+                    "..", "..");
+
                 string filePath = Path.Combine(projectDir, "Datos de demo", "productos.json");
                 filePath = Path.GetFullPath(filePath);
 
                 if (!File.Exists(filePath))
-                {
                     throw new Exception($"No existe el archivo productos.json en: {filePath}");
-                }
 
                 string jsonString = File.ReadAllText(filePath);
-                listaProductos = JsonSerializer.Deserialize<List<Productos>>(jsonString) ?? new List<Productos>();
+
+                var opciones = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
+
+                listaProductos = JsonSerializer.Deserialize<List<Productos>>(jsonString, opciones)
+                                ?? new List<Productos>();
 
                 return listaProductos;
             }

@@ -1,356 +1,452 @@
 [
   {
-    "Id": 101,
-    "Nombre": "Portátil Ultrabook 14\"",
-    "Categoria": "Tecnología",
-    "Precio": 899.99,
-    "Stock": 15
+    "id": 101,
+    "nombre": "Teclado Mecánico RGB",
+    "descripcion": "Teclado con switches blue y retroiluminación personalizada.",
+    "categoria": "Periféricos",
+    "precioUnitario": 45.99,
+    "stockActual": 25,
+    "proveedor": "TechLogistics"
   },
   {
-    "Id": 102,
-    "Nombre": "Ratón Inalámbrico",
-    "Categoria": "Tecnología",
-    "Precio": 24.99,
-    "Stock": 80
+    "id": 102,
+    "nombre": "Mouse Óptico Gamer",
+    "descripcion": "Mouse ergonómico de 16000 DPI con 6 botones programables.",
+    "categoria": "Periféricos",
+    "precioUnitario": 29.50,
+    "stockActual": 40,
+    "proveedor": "GamingWorld"
   },
   {
-    "Id": 103,
-    "Nombre": "Teclado Mecánico RGB",
-    "Categoria": "Tecnología",
-    "Precio": 79.90,
-    "Stock": 45
+    "id": 103,
+    "nombre": "Monitor 24'' Full HD",
+    "descripcion": "Pantalla LED con tasa de refresco de 75Hz y panel IPS.",
+    "categoria": "Monitores",
+    "precioUnitario": 120.00,
+    "stockActual": 15,
+    "proveedor": "VisionCorp"
   },
   {
-    "Id": 104,
-    "Nombre": "Monitor 27\" 4K",
-    "Categoria": "Tecnología",
-    "Precio": 329.00,
-    "Stock": 22
+    "id": 104,
+    "nombre": "Auriculares Wireless",
+    "descripcion": "Auriculares con cancelación de ruido y micrófono integrado.",
+    "categoria": "Audio",
+    "precioUnitario": 89.90,
+    "stockActual": 30,
+    "proveedor": "SoundMasters"
   },
   {
-    "Id": 105,
-    "Nombre": "Disco SSD 1TB",
-    "Categoria": "Tecnología",
-    "Precio": 89.50,
-    "Stock": 60
+    "id": 105,
+    "nombre": "Memoria RAM 16GB DDR4",
+    "descripcion": "Módulo de alta velocidad 3200MHz para computadoras de escritorio.",
+    "categoria": "Componentes",
+    "precioUnitario": 65.00,
+    "stockActual": 50,
+    "proveedor": "DataSpeed"
   },
   {
-    "Id": 106,
-    "Nombre": "Memoria USB 128GB",
-    "Categoria": "Tecnología",
-    "Precio": 19.99,
-    "Stock": 120
+    "id": 106,
+    "nombre": "Disco SSD 1TB NVMe",
+    "descripcion": "Almacenamiento de estado sólido de alto rendimiento.",
+    "categoria": "Almacenamiento",
+    "precioUnitario": 110.00,
+    "stockActual": 20,
+    "proveedor": "DataSpeed"
   },
   {
-    "Id": 107,
-    "Nombre": "Auriculares Bluetooth",
-    "Categoria": "Tecnología",
-    "Precio": 59.95,
-    "Stock": 55
+    "id": 107,
+    "nombre": "Procesador Intel i7-12700K",
+    "descripcion": "CPU de 12 núcleos para gaming y renderizado.",
+    "categoria": "Componentes",
+    "precioUnitario": 350.00,
+    "stockActual": 10,
+    "proveedor": "GlobalTech"
   },
   {
-    "Id": 108,
-    "Nombre": "Altavoz Inteligente",
-    "Categoria": "Tecnología",
-    "Precio": 49.99,
-    "Stock": 40
+    "id": 108,
+    "nombre": "Placa de Video RTX 3060",
+    "descripcion": "Tarjeta gráfica con 12GB VRAM para trazado de rayos.",
+    "categoria": "Componentes",
+    "precioUnitario": 420.00,
+    "stockActual": 5,
+    "proveedor": "GlobalTech"
   },
   {
-    "Id": 109,
-    "Nombre": "Smartphone 5G",
-    "Categoria": "Tecnología",
-    "Precio": 699.00,
-    "Stock": 30
+    "id": 109,
+    "nombre": "Fuente de Alimentación 750W",
+    "descripcion": "Certificación 80 Plus Gold, modular.",
+    "categoria": "Componentes",
+    "precioUnitario": 95.00,
+    "stockActual": 18,
+    "proveedor": "PowerSupply Co."
   },
   {
-    "Id": 110,
-    "Nombre": "Tablet 10\"",
-    "Categoria": "Tecnología",
-    "Precio": 299.99,
-    "Stock": 28
-  },
-
-  {
-    "Id": 111,
-    "Nombre": "Webcam Full HD",
-    "Categoria": "Tecnología",
-    "Precio": 39.90,
-    "Stock": 70
+    "id": 110,
+    "nombre": "Webcam 1080p",
+    "descripcion": "Cámara web para streaming con corrección automática de luz.",
+    "categoria": "Video",
+    "precioUnitario": 45.00,
+    "stockActual": 22,
+    "proveedor": "VisionCorp"
   },
   {
-    "Id": 112,
-    "Nombre": "Micrófono USB",
-    "Categoria": "Tecnología",
-    "Precio": 54.90,
-    "Stock": 34
+    "id": 111,
+    "nombre": "Pad Mouse Extendido",
+    "descripcion": "Superficie de tela de 90x40cm para escritorio.",
+    "categoria": "Accesorios",
+    "precioUnitario": 15.00,
+    "stockActual": 100,
+    "proveedor": "GamingWorld"
   },
   {
-    "Id": 113,
-    "Nombre": "Impresora Multifunción",
-    "Categoria": "Tecnología",
-    "Precio": 149.99,
-    "Stock": 18
+    "id": 112,
+    "nombre": "Hub USB-C 7 en 1",
+    "descripcion": "Adaptador con HDMI, SD y puertos USB 3.0.",
+    "categoria": "Accesorios",
+    "precioUnitario": 35.00,
+    "stockActual": 45,
+    "proveedor": "TechLogistics"
   },
   {
-    "Id": 114,
-    "Nombre": "Router Wi-Fi 6",
-    "Categoria": "Tecnología",
-    "Precio": 119.00,
-    "Stock": 26
+    "id": 113,
+    "nombre": "Silla Gamer Ergonómica",
+    "descripcion": "Silla ajustable con soporte lumbar y cervical.",
+    "categoria": "Mobiliario",
+    "precioUnitario": 180.00,
+    "stockActual": 8,
+    "proveedor": "ComfortSeats"
   },
   {
-    "Id": 115,
-    "Nombre": "Switch de Red 8 Puertos",
-    "Categoria": "Tecnología",
-    "Precio": 34.50,
-    "Stock": 50
+    "id": 114,
+    "nombre": "Micrófono de Condensador",
+    "descripcion": "Ideal para podcast y grabación vocal profesional.",
+    "categoria": "Audio",
+    "precioUnitario": 75.00,
+    "stockActual": 12,
+    "proveedor": "SoundMasters"
   },
   {
-    "Id": 116,
-    "Nombre": "Cámara de Seguridad IP",
-    "Categoria": "Tecnología",
-    "Precio": 69.90,
-    "Stock": 37
+    "id": 115,
+    "nombre": "Router Wi-Fi 6",
+    "descripcion": "Velocidad ultra rápida para múltiples dispositivos.",
+    "categoria": "Redes",
+    "precioUnitario": 130.00,
+    "stockActual": 25,
+    "proveedor": "NetConnect"
   },
   {
-    "Id": 117,
-    "Nombre": "Smartwatch Deportivo",
-    "Categoria": "Tecnología",
-    "Precio": 129.99,
-    "Stock": 32
+    "id": 116,
+    "nombre": "Cable HDMI 2.1 2m",
+    "descripcion": "Soporte para 8K y 4K a 120Hz.",
+    "categoria": "Accesorios",
+    "precioUnitario": 12.50,
+    "stockActual": 200,
+    "proveedor": "VisionCorp"
   },
   {
-    "Id": 118,
-    "Nombre": "Pulsera de Actividad",
-    "Categoria": "Tecnología",
-    "Precio": 39.99,
-    "Stock": 65
+    "id": 117,
+    "nombre": "Gabinete Mid Tower",
+    "descripcion": "Chasis con lateral de vidrio templado y 3 ventiladores.",
+    "categoria": "Componentes",
+    "precioUnitario": 85.00,
+    "stockActual": 14,
+    "proveedor": "GlobalTech"
   },
   {
-    "Id": 119,
-    "Nombre": "Consola de Videojuegos",
-    "Categoria": "Tecnología",
-    "Precio": 499.00,
-    "Stock": 12
+    "id": 118,
+    "nombre": "Water Cooling 240mm",
+    "descripcion": "Refrigeración líquida para CPUs de alto consumo.",
+    "categoria": "Componentes",
+    "precioUnitario": 99.00,
+    "stockActual": 11,
+    "proveedor": "CoolerMaster"
   },
   {
-    "Id": 120,
-    "Nombre": "Mando Inalámbrico",
-    "Categoria": "Tecnología",
-    "Precio": 59.00,
-    "Stock": 47
-  },
-
-  {
-    "Id": 121,
-    "Nombre": "Tarjeta Gráfica 12GB",
-    "Categoria": "Tecnología",
-    "Precio": 579.00,
-    "Stock": 10
+    "id": 119,
+    "nombre": "Switch de Red 8 Puertos",
+    "descripcion": "Switch Gigabit para expansión de red cableada.",
+    "categoria": "Redes",
+    "precioUnitario": 25.00,
+    "stockActual": 35,
+    "proveedor": "NetConnect"
   },
   {
-    "Id": 122,
-    "Nombre": "Procesador 8 Núcleos",
-    "Categoria": "Tecnología",
-    "Precio": 289.00,
-    "Stock": 16
+    "id": 120,
+    "nombre": "Batería Externa 20000mAh",
+    "descripcion": "Carga rápida para dispositivos móviles.",
+    "categoria": "Accesorios",
+    "precioUnitario": 40.00,
+    "stockActual": 60,
+    "proveedor": "PowerSupply Co."
   },
   {
-    "Id": 123,
-    "Nombre": "Placa Base ATX",
-    "Categoria": "Tecnología",
-    "Precio": 159.00,
-    "Stock": 20
+    "id": 121,
+    "nombre": "Altavoces 2.1 Bluetooth",
+    "descripcion": "Sistema de audio con subwoofer dedicado.",
+    "categoria": "Audio",
+    "precioUnitario": 60.00,
+    "stockActual": 19,
+    "proveedor": "SoundMasters"
   },
   {
-    "Id": 124,
-    "Nombre": "Memoria RAM 16GB",
-    "Categoria": "Tecnología",
-    "Precio": 64.99,
-    "Stock": 72
+    "id": 122,
+    "nombre": "Cámara de Seguridad IP",
+    "descripcion": "Visión nocturna y detección de movimiento.",
+    "categoria": "Seguridad",
+    "precioUnitario": 55.00,
+    "stockActual": 28,
+    "proveedor": "VisionCorp"
   },
   {
-    "Id": 125,
-    "Nombre": "Fuente de Alimentación 750W",
-    "Categoria": "Tecnología",
-    "Precio": 89.90,
-    "Stock": 25
+    "id": 123,
+    "nombre": "Pasta Térmica Pro",
+    "descripcion": "Compuesto térmico de alta conductividad.",
+    "categoria": "Mantenimiento",
+    "precioUnitario": 9.99,
+    "stockActual": 150,
+    "proveedor": "CoolerMaster"
   },
   {
-    "Id": 126,
-    "Nombre": "Caja Torre Gaming",
-    "Categoria": "Tecnología",
-    "Precio": 99.50,
-    "Stock": 19
+    "id": 124,
+    "nombre": "Tarjeta MicroSD 256GB",
+    "descripcion": "Clase 10, ideal para cámaras y consolas.",
+    "categoria": "Almacenamiento",
+    "precioUnitario": 32.00,
+    "stockActual": 85,
+    "proveedor": "DataSpeed"
   },
   {
-    "Id": 127,
-    "Nombre": "Refrigeración Líquida CPU",
-    "Categoria": "Tecnología",
-    "Precio": 109.00,
-    "Stock": 14
+    "id": 125,
+    "nombre": "Joystick DualShock 4",
+    "descripcion": "Control inalámbrico compatible con PC y consolas.",
+    "categoria": "Periféricos",
+    "precioUnitario": 59.99,
+    "stockActual": 20,
+    "proveedor": "GamingWorld"
   },
   {
-    "Id": 128,
-    "Nombre": "Disco Duro Externo 2TB",
-    "Categoria": "Tecnología",
-    "Precio": 79.99,
-    "Stock": 44
+    "id": 126,
+    "nombre": "Lámpara Escritorio LED",
+    "descripcion": "Ajuste de temperatura de color y brillo.",
+    "categoria": "Mobiliario",
+    "precioUnitario": 28.00,
+    "stockActual": 33,
+    "proveedor": "TechLogistics"
   },
   {
-    "Id": 129,
-    "Nombre": "Hub USB-C",
-    "Categoria": "Tecnología",
-    "Precio": 29.99,
-    "Stock": 90
+    "id": 127,
+    "nombre": "Disco Duro Externo 2TB",
+    "descripcion": "Conexión USB 3.0 para copias de seguridad.",
+    "categoria": "Almacenamiento",
+    "precioUnitario": 72.00,
+    "stockActual": 17,
+    "proveedor": "DataSpeed"
   },
   {
-    "Id": 130,
-    "Nombre": "Docking Station Portátil",
-    "Categoria": "Tecnología",
-    "Precio": 139.00,
-    "Stock": 17
-  },
-
-  {
-    "Id": 131,
-    "Nombre": "Proyector Full HD",
-    "Categoria": "Tecnología",
-    "Precio": 399.00,
-    "Stock": 11
+    "id": 128,
+    "nombre": "Ventilador Case 120mm",
+    "descripcion": "Ventilador silencioso con iluminación estática.",
+    "categoria": "Componentes",
+    "precioUnitario": 12.00,
+    "stockActual": 120,
+    "proveedor": "CoolerMaster"
   },
   {
-    "Id": 132,
-    "Nombre": "Pantalla Portátil 15.6\"",
-    "Categoria": "Tecnología",
-    "Precio": 189.90,
-    "Stock": 23
+    "id": 129,
+    "nombre": "Soporte para Monitor",
+    "descripcion": "Brazo hidráulico para pantallas de hasta 32''.",
+    "categoria": "Mobiliario",
+    "precioUnitario": 48.00,
+    "stockActual": 12,
+    "proveedor": "ComfortSeats"
   },
   {
-    "Id": 133,
-    "Nombre": "Lápiz Digital",
-    "Categoria": "Tecnología",
-    "Precio": 79.00,
-    "Stock": 36
+    "id": 130,
+    "nombre": "Limpiador de Pantallas Kit",
+    "descripcion": "Líquido especial y paño de microfibra.",
+    "categoria": "Mantenimiento",
+    "precioUnitario": 8.50,
+    "stockActual": 90,
+    "proveedor": "TechLogistics"
   },
   {
-    "Id": 134,
-    "Nombre": "Cargador Rápido 65W",
-    "Categoria": "Tecnología",
-    "Precio": 24.50,
-    "Stock": 95
+    "id": 131,
+    "nombre": "Adaptador Bluetooth 5.0",
+    "descripcion": "Dongle USB de baja latencia.",
+    "categoria": "Accesorios",
+    "precioUnitario": 14.00,
+    "stockActual": 70,
+    "proveedor": "NetConnect"
   },
   {
-    "Id": 135,
-    "Nombre": "Power Bank 20000mAh",
-    "Categoria": "Tecnología",
-    "Precio": 34.90,
-    "Stock": 67
+    "id": 132,
+    "nombre": "Teclado Numérico Externo",
+    "descripcion": "Ideal para laptops sin sección numérica.",
+    "categoria": "Periféricos",
+    "precioUnitario": 18.00,
+    "stockActual": 42,
+    "proveedor": "TechLogistics"
   },
   {
-    "Id": 136,
-    "Nombre": "Cable HDMI 2.1",
-    "Categoria": "Tecnología",
-    "Precio": 12.99,
-    "Stock": 150
+    "id": 133,
+    "nombre": "Extensor Rango Wi-Fi",
+    "descripcion": "Repetidor de señal de doble banda.",
+    "categoria": "Redes",
+    "precioUnitario": 39.00,
+    "stockActual": 24,
+    "proveedor": "NetConnect"
   },
   {
-    "Id": 137,
-    "Nombre": "Cable USB-C a USB-C",
-    "Categoria": "Tecnología",
-    "Precio": 9.99,
-    "Stock": 200
+    "id": 134,
+    "nombre": "Bolsa Transporte Laptop",
+    "descripcion": "Funda acolchada para equipos de 15.6''.",
+    "categoria": "Accesorios",
+    "precioUnitario": 22.00,
+    "stockActual": 55,
+    "proveedor": "ComfortSeats"
   },
   {
-    "Id": 138,
-    "Nombre": "Soporte para Portátil",
-    "Categoria": "Tecnología",
-    "Precio": 22.00,
-    "Stock": 58
+    "id": 135,
+    "nombre": "Kit Herramientas PC",
+    "descripcion": "Destornilladores de precisión y pinzas antiestáticas.",
+    "categoria": "Mantenimiento",
+    "precioUnitario": 30.00,
+    "stockActual": 15,
+    "proveedor": "TechLogistics"
   },
   {
-    "Id": 139,
-    "Nombre": "Base de Refrigeración Laptop",
-    "Categoria": "Tecnología",
-    "Precio": 27.50,
-    "Stock": 41
+    "id": 136,
+    "nombre": "Capturadora de Video",
+    "descripcion": "Grabación 1080p 60fps vía HDMI.",
+    "categoria": "Video",
+    "precioUnitario": 145.00,
+    "stockActual": 7,
+    "proveedor": "GamingWorld"
   },
   {
-    "Id": 140,
-    "Nombre": "Silla Gaming",
-    "Categoria": "Tecnología",
-    "Precio": 189.00,
-    "Stock": 13
-  },
-
-  {
-    "Id": 141,
-    "Nombre": "Escritorio Elevable",
-    "Categoria": "Tecnología",
-    "Precio": 249.00,
-    "Stock": 9
+    "id": 137,
+    "nombre": "Memoria USB 128GB",
+    "descripcion": "Pendrive USB 3.2 metálico.",
+    "categoria": "Almacenamiento",
+    "precioUnitario": 19.50,
+    "stockActual": 110,
+    "proveedor": "DataSpeed"
   },
   {
-    "Id": 142,
-    "Nombre": "Lámpara LED Inteligente",
-    "Categoria": "Tecnología",
-    "Precio": 29.90,
-    "Stock": 73
+    "id": 138,
+    "nombre": "Lector Tarjetas SD",
+    "descripcion": "Lector multiformato de alta velocidad.",
+    "categoria": "Accesorios",
+    "precioUnitario": 16.00,
+    "stockActual": 38,
+    "proveedor": "TechLogistics"
   },
   {
-    "Id": 143,
-    "Nombre": "Bombilla Wi-Fi RGB",
-    "Categoria": "Tecnología",
-    "Precio": 14.90,
-    "Stock": 130
+    "id": 139,
+    "nombre": "UPS Sistema de Energía",
+    "descripcion": "Respaldo de batería de 850VA.",
+    "categoria": "Componentes",
+    "precioUnitario": 105.00,
+    "stockActual": 9,
+    "proveedor": "PowerSupply Co."
   },
   {
-    "Id": 144,
-    "Nombre": "Enchufe Inteligente",
-    "Categoria": "Tecnología",
-    "Precio": 16.50,
-    "Stock": 110
+    "id": 140,
+    "nombre": "Cable Ethernet Cat6 10m",
+    "descripcion": "Cable de red apantallado para altas velocidades.",
+    "categoria": "Redes",
+    "precioUnitario": 11.00,
+    "stockActual": 140,
+    "proveedor": "NetConnect"
   },
   {
-    "Id": 145,
-    "Nombre": "Termostato Inteligente",
-    "Categoria": "Tecnología",
-    "Precio": 119.99,
-    "Stock": 21
+    "id": 141,
+    "nombre": "Brazo para Micrófono",
+    "descripcion": "Soporte articulado tipo tijera.",
+    "categoria": "Accesorios",
+    "precioUnitario": 33.00,
+    "stockActual": 26,
+    "proveedor": "SoundMasters"
   },
   {
-    "Id": 146,
-    "Nombre": "Sensor de Movimiento Wi-Fi",
-    "Categoria": "Tecnología",
-    "Precio": 21.99,
-    "Stock": 64
+    "id": 142,
+    "nombre": "Panel Acústico Pro",
+    "descripcion": "Espuma aislante para estudios de grabación.",
+    "categoria": "Audio",
+    "precioUnitario": 5.50,
+    "stockActual": 300,
+    "proveedor": "SoundMasters"
   },
   {
-    "Id": 147,
-    "Nombre": "Cerradura Inteligente",
-    "Categoria": "Tecnología",
-    "Precio": 179.00,
-    "Stock": 8
+    "id": 143,
+    "nombre": "Docking Station",
+    "descripcion": "Base de conexión completa para laptops.",
+    "categoria": "Accesorios",
+    "precioUnitario": 92.00,
+    "stockActual": 13,
+    "proveedor": "TechLogistics"
   },
   {
-    "Id": 148,
-    "Nombre": "Timbre con Cámara",
-    "Categoria": "Tecnología",
-    "Precio": 99.00,
-    "Stock": 27
+    "id": 144,
+    "nombre": "Protector de Sobretensión",
+    "descripcion": "Regleta de 8 tomas con fusible térmico.",
+    "categoria": "Componentes",
+    "precioUnitario": 21.00,
+    "stockActual": 65,
+    "proveedor": "PowerSupply Co."
   },
   {
-    "Id": 149,
-    "Nombre": "Gafas de Realidad Virtual",
-    "Categoria": "Tecnología",
-    "Precio": 349.00,
-    "Stock": 6
+    "id": 145,
+    "nombre": "Trípode para Cámara",
+    "descripcion": "Trípode ligero de aluminio ajustable.",
+    "categoria": "Video",
+    "precioUnitario": 40.00,
+    "stockActual": 18,
+    "proveedor": "VisionCorp"
   },
   {
-    "Id": 150,
-    "Nombre": "Dron con Cámara 4K",
-    "Categoria": "Tecnología",
-    "Precio": 459.00,
-    "Stock": 5
+    "id": 146,
+    "nombre": "Mouse Vertical Ergonómico",
+    "descripcion": "Diseñado para reducir la tensión de la muñeca.",
+    "categoria": "Periféricos",
+    "precioUnitario": 34.00,
+    "stockActual": 22,
+    "proveedor": "GamingWorld"
+  },
+  {
+    "id": 147,
+    "nombre": "Adaptador Wi-Fi USB",
+    "descripcion": "Antena externa para mejorar recepción de señal.",
+    "categoria": "Redes",
+    "precioUnitario": 19.90,
+    "stockActual": 50,
+    "proveedor": "NetConnect"
+  },
+  {
+    "id": 148,
+    "nombre": "Cargador Universal Laptop",
+    "descripcion": "Compatible con múltiples marcas mediante puntas intercambiables.",
+    "categoria": "Accesorios",
+    "precioUnitario": 38.00,
+    "stockActual": 16,
+    "proveedor": "PowerSupply Co."
+  },
+  {
+    "id": 149,
+    "nombre": "Spray de Aire Comprimido",
+    "descripcion": "Para limpieza de polvo en componentes.",
+    "categoria": "Mantenimiento",
+    "precioUnitario": 7.00,
+    "stockActual": 200,
+    "proveedor": "TechLogistics"
+  },
+  {
+    "id": 150,
+    "nombre": "Teclado Inalámbrico Slim",
+    "descripcion": "Diseño compacto y batería recargable.",
+    "categoria": "Periféricos",
+    "precioUnitario": 39.99,
+    "stockActual": 27,
+    "proveedor": "TechLogistics"
   }
 ]

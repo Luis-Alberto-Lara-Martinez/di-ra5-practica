@@ -38,8 +38,7 @@ namespace di_ra5_practica
 
         private void todosLosDatosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Vistas.Tablas.VistaTabla1 vistaTabla1 = new Vistas.Tablas.VistaTabla1();   
-
+            Vistas.Tablas.VistaTabla1 vistaTabla1 = new Vistas.Tablas.VistaTabla1();
             vistaTabla1.ShowDialog();
 
         }

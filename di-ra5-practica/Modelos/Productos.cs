@@ -8,7 +8,6 @@
         private string categoria;
         private double precioUnitario;
         private int stockActual;
-        private int stockMinimo;
         private string proveedor;
 
         public int Id { get => id; set => id = value; }
@@ -17,7 +16,6 @@
         public string Categoria { get => categoria; set => categoria = value; }
         public double PrecioUnitario { get => precioUnitario; set => precioUnitario = value; }
         public int StockActual { get => stockActual; set => stockActual = value; }
-        public int StockMinimo { get => stockMinimo; set => stockMinimo = value; }
         public string Proveedor { get => proveedor; set => proveedor = value; }
     }
 }

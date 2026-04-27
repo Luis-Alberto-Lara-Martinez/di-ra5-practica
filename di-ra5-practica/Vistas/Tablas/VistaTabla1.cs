@@ -21,5 +21,10 @@ namespace di_ra5_practica.Vistas.Tablas
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

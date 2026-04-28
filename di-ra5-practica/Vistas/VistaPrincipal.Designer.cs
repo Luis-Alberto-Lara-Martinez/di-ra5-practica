@@ -111,6 +111,7 @@
             this.comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem.Name = "comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem";
             this.comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem.Text = "5. Productos por nombre (Filtro 3)";
+            this.comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem.Click += new System.EventHandler(this.comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem_Click);
             // 
             // comprasPorMetodoDePagoTarjetaFiltro4ToolStripMenuItem
             // 

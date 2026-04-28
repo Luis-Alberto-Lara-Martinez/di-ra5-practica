@@ -49,5 +49,11 @@ namespace di_ra5_practica
             Vistas.Tablas.VistaTabla4 vistaTabla4 = new Vistas.Tablas.VistaTabla4();
             vistaTabla4.ShowDialog();
         }
+
+        private void comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vistas.Tablas.VistaTabla5 vistaTabla5 = new Vistas.Tablas.VistaTabla5();
+            vistaTabla5.ShowDialog();
+        }
     }
 }

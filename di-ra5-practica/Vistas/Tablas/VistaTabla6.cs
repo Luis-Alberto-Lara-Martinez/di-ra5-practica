@@ -66,7 +66,7 @@ namespace di_ra5_practica.Vistas.Tablas
 
                 this.reportViewer1.LocalReport.ReportPath = reportPath;
                 this.reportViewer1.LocalReport.DataSources.Clear();
-                this.reportViewer1.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSetProductos", filtrados));
+                this.reportViewer1.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSetCompras", filtrados));
                 this.reportViewer1.RefreshReport();
             }
             catch (Exception ex)

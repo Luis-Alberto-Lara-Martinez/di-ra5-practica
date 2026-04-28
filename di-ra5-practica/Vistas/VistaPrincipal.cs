@@ -53,5 +53,11 @@ namespace di_ra5_practica
             Vistas.Tablas.VistaTabla2 vistaTabla2 = new Vistas.Tablas.VistaTabla2();
             vistaTabla2.ShowDialog();
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Vistas.Tablas.VistaTabla3 vistaTabla3 = new Vistas.Tablas.VistaTabla3();
+            vistaTabla3.ShowDialog();
+        }
     }
 }

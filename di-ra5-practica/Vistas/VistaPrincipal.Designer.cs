@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tablasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,15 +43,6 @@
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Location = new System.Drawing.Point(11, 48);
-            this.reportViewer1.Margin = new System.Windows.Forms.Padding(2);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(540, 337);
-            this.reportViewer1.TabIndex = 0;
             // 
             // menuStrip1
             // 
@@ -85,59 +75,59 @@
             this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem,
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem});
             this.tablasToolStripMenuItem.Name = "tablasToolStripMenuItem";
-            this.tablasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tablasToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.tablasToolStripMenuItem.Text = "Tablas";
             // 
             // todosLosDatosToolStripMenuItem
             // 
             this.todosLosDatosToolStripMenuItem.Name = "todosLosDatosToolStripMenuItem";
-            this.todosLosDatosToolStripMenuItem.Size = new System.Drawing.Size(338, 22);
+            this.todosLosDatosToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.todosLosDatosToolStripMenuItem.Text = "1. Todos los datos (Compras)";
             this.todosLosDatosToolStripMenuItem.Click += new System.EventHandler(this.todosLosDatosToolStripMenuItem_Click);
             // 
             // todosLosDatosProductosToolStripMenuItem
             // 
             this.todosLosDatosProductosToolStripMenuItem.Name = "todosLosDatosProductosToolStripMenuItem";
-            this.todosLosDatosProductosToolStripMenuItem.Size = new System.Drawing.Size(338, 22);
+            this.todosLosDatosProductosToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.todosLosDatosProductosToolStripMenuItem.Text = "2. Todos los datos (Productos)";
             this.todosLosDatosProductosToolStripMenuItem.Click += new System.EventHandler(this.todosLosDatosProductosToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(338, 22);
-            this.toolStripMenuItem2.Text = "3. Productos por debajo de 50 (Filtro1)";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(296, 22);
+            this.toolStripMenuItem2.Text = "3. Productos por Precio unitario (Filtro1)";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // productosPorEncimaDe50Filtro2ToolStripMenuItem
             // 
             this.productosPorEncimaDe50Filtro2ToolStripMenuItem.Name = "productosPorEncimaDe50Filtro2ToolStripMenuItem";
-            this.productosPorEncimaDe50Filtro2ToolStripMenuItem.Size = new System.Drawing.Size(338, 22);
-            this.productosPorEncimaDe50Filtro2ToolStripMenuItem.Text = "4. Productos por encima de 50 (Filtro 2)";
+            this.productosPorEncimaDe50Filtro2ToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
+            this.productosPorEncimaDe50Filtro2ToolStripMenuItem.Text = "4. Productos por stock (Filtro 2)";
             // 
             // comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem
             // 
             this.comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem.Name = "comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem";
-            this.comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem.Size = new System.Drawing.Size(338, 22);
-            this.comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem.Text = "5. Compras por metodo de pago Efectivo (Filtro 3)";
+            this.comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
+            this.comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem.Text = "5. Productos por nombre (Filtro 3)";
             // 
             // comprasPorMetodoDePagoTarjetaFiltro4ToolStripMenuItem
             // 
             this.comprasPorMetodoDePagoTarjetaFiltro4ToolStripMenuItem.Name = "comprasPorMetodoDePagoTarjetaFiltro4ToolStripMenuItem";
-            this.comprasPorMetodoDePagoTarjetaFiltro4ToolStripMenuItem.Size = new System.Drawing.Size(338, 22);
-            this.comprasPorMetodoDePagoTarjetaFiltro4ToolStripMenuItem.Text = "6. Compras por metodo de pago Tarjeta (Filtro 4)";
+            this.comprasPorMetodoDePagoTarjetaFiltro4ToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
+            this.comprasPorMetodoDePagoTarjetaFiltro4ToolStripMenuItem.Text = "6. Compras por metodo de pago  (Filtro 4)";
             // 
             // comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem
             // 
             this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Name = "comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem";
-            this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Size = new System.Drawing.Size(338, 22);
-            this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Text = "7. Productos por categoria Periféricos (Filtro 5)";
+            this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
+            this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Text = "7. Compras por fecha (Filtro 5)";
             // 
             // comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem
             // 
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Name = "comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem";
-            this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Size = new System.Drawing.Size(338, 22);
-            this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Text = "8. Compras por metodo de pago Tarjeta (Filtro 6)";
+            this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
+            this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Text = "8. Compras por ID(Filtro 6)";
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -159,7 +149,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1222, 571);
-            this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -174,8 +163,6 @@
         }
 
         #endregion
-
-        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;

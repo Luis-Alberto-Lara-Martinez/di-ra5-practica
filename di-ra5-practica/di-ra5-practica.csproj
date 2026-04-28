@@ -135,6 +135,7 @@
     <Compile Include="Modelos\Compras.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Reportes\ReportProductos.rdlc" />
     <EmbeddedResource Include="Reportes\ReportCompras.rdlc" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -162,6 +163,10 @@
     </None>
     <None Include="Datos de demo\productos.json" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\di_ra5_practica.Controladores.ComprasControlador.datasource" />
+    <None Include="Properties\DataSources\di_ra5_practica.Controladores.ProductosControlador.datasource" />
+    <None Include="Properties\DataSources\di_ra5_practica.Modelos.Compras.datasource" />
+    <None Include="Properties\DataSources\di_ra5_practica.Modelos.Productos.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

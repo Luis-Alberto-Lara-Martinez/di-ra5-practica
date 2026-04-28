@@ -107,6 +107,12 @@
   <ItemGroup>
     <Compile Include="Controladores\ProductosControlador.cs" />
     <Compile Include="Controladores\ComprasControlador.cs" />
+    <Compile Include="Vistas\Tablas\VistaTabla4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Tablas\VistaTabla4.Designer.cs">
+      <DependentUpon>VistaTabla4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Tablas\VistaTabla3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\Tablas\VistaTabla4.resx">
+      <DependentUpon>VistaTabla4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Tablas\VistaTabla3.resx">
       <DependentUpon>VistaTabla3.cs</DependentUpon>
     </EmbeddedResource>

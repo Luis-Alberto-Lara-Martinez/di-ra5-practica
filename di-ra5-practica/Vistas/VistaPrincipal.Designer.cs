@@ -75,7 +75,7 @@
             this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem,
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem});
             this.tablasToolStripMenuItem.Name = "tablasToolStripMenuItem";
-            this.tablasToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.tablasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.tablasToolStripMenuItem.Text = "Tablas";
             // 
             // todosLosDatosToolStripMenuItem
@@ -104,6 +104,7 @@
             this.productosPorEncimaDe50Filtro2ToolStripMenuItem.Name = "productosPorEncimaDe50Filtro2ToolStripMenuItem";
             this.productosPorEncimaDe50Filtro2ToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.productosPorEncimaDe50Filtro2ToolStripMenuItem.Text = "4. Productos por stock (Filtro 2)";
+            this.productosPorEncimaDe50Filtro2ToolStripMenuItem.Click += new System.EventHandler(this.productosPorEncimaDe50Filtro2ToolStripMenuItem_Click);
             // 
             // comprasPorMetodoDePagoEfectivoFiltro3ToolStripMenuItem
             // 

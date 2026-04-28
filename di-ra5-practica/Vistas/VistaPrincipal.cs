@@ -43,5 +43,11 @@ namespace di_ra5_practica
             Vistas.Tablas.VistaTabla3 vistaTabla3 = new Vistas.Tablas.VistaTabla3();
             vistaTabla3.ShowDialog();
         }
+
+        private void productosPorEncimaDe50Filtro2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vistas.Tablas.VistaTabla4 vistaTabla4 = new Vistas.Tablas.VistaTabla4();
+            vistaTabla4.ShowDialog();
+        }
     }
 }

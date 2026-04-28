@@ -1,6 +1,6 @@
 ﻿namespace di_ra5_practica.Vistas.Tablas
 {
-    partial class VistaTabla3
+    partial class VistaTabla4
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.button2 = new System.Windows.Forms.Button();
-            this.TextoPrecio = new System.Windows.Forms.TextBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -42,7 +43,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(399, 35);
             this.label1.TabIndex = 0;
-            this.label1.Text = "3. Productos por precio (Filtro 1) ";
+            this.label1.Text = "4. Productos por Stock (Filtro 2) ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
@@ -73,28 +74,28 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // TextoPrecio
+            // numericUpDown1
             // 
-            this.TextoPrecio.Location = new System.Drawing.Point(235, 485);
-            this.TextoPrecio.Name = "TextoPrecio";
-            this.TextoPrecio.Size = new System.Drawing.Size(159, 20);
-            this.TextoPrecio.TabIndex = 5;
+            this.numericUpDown1.Location = new System.Drawing.Point(222, 472);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(181, 20);
+            this.numericUpDown1.TabIndex = 5;
             // 
-            // VistaTabla3
+            // VistaTabla4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1097, 538);
-            this.Controls.Add(this.TextoPrecio);
+            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "VistaTabla3";
-            this.Text = "VistaTabla1";
-            this.Load += new System.EventHandler(this.VistaTabla3_Load_1);
+            this.Name = "VistaTabla4";
+            this.Text = "Productos por Stock";
+            this.Load += new System.EventHandler(this.VistaTabla4_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -104,6 +105,6 @@
         private System.Windows.Forms.Button button1;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox TextoPrecio;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }

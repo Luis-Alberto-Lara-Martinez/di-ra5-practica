@@ -55,10 +55,10 @@
             // 
             // reportViewer1
             // 
-            this.reportViewer1.Location = new System.Drawing.Point(51, 64);
+            this.reportViewer1.Location = new System.Drawing.Point(12, 64);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(954, 364);
+            this.reportViewer1.Size = new System.Drawing.Size(1061, 370);
             this.reportViewer1.TabIndex = 3;
             // 
             // VistaTabla1

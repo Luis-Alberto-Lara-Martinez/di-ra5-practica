@@ -136,6 +136,7 @@
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Name = "comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem";
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Text = "8. Compras por ID(Filtro 6)";
+            this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Click += new System.EventHandler(this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem_Click);
             // 
             // graficosToolStripMenuItem
             // 

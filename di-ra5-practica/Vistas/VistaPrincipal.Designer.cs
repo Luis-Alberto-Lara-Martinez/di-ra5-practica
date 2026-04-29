@@ -39,10 +39,10 @@
             this.comprasPorMetodoDePagoTarjetaFiltro4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.graficosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tablasConCamposCalculadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,7 +79,7 @@
             this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem,
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem});
             this.tablasToolStripMenuItem.Name = "tablasToolStripMenuItem";
-            this.tablasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tablasToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
             this.tablasToolStripMenuItem.Text = "Tablas";
             // 
             // todosLosDatosToolStripMenuItem
@@ -129,12 +129,25 @@
             this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Name = "comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem";
             this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Text = "7. Compras por fecha (Filtro 5)";
+            this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem.Click += new System.EventHandler(this.comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem_Click);
             // 
             // comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem
             // 
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Name = "comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem";
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem.Text = "8. Compras por ID(Filtro 6)";
+            // 
+            // graficosToolStripMenuItem
+            // 
+            this.graficosToolStripMenuItem.Name = "graficosToolStripMenuItem";
+            this.graficosToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.graficosToolStripMenuItem.Text = "Graficos";
+            // 
+            // tablasConCamposCalculadosToolStripMenuItem
+            // 
+            this.tablasConCamposCalculadosToolStripMenuItem.Name = "tablasConCamposCalculadosToolStripMenuItem";
+            this.tablasConCamposCalculadosToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.tablasConCamposCalculadosToolStripMenuItem.Text = "Tablas con Campos calculados";
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -150,18 +163,6 @@
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // graficosToolStripMenuItem
-            // 
-            this.graficosToolStripMenuItem.Name = "graficosToolStripMenuItem";
-            this.graficosToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
-            this.graficosToolStripMenuItem.Text = "Graficos";
-            // 
-            // tablasConCamposCalculadosToolStripMenuItem
-            // 
-            this.tablasConCamposCalculadosToolStripMenuItem.Name = "tablasConCamposCalculadosToolStripMenuItem";
-            this.tablasConCamposCalculadosToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
-            this.tablasConCamposCalculadosToolStripMenuItem.Text = "Tablas con Campos calculados";
             // 
             // VistaPrincipal
             // 

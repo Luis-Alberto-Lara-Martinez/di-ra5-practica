@@ -45,6 +45,12 @@
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.graficaTotalMetodoDePagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.graficaStockPorCategoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.graficaIDProdcutoPorCantidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -144,7 +150,13 @@
             // 
             this.graficosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.graficaTotalMetodoDePagoToolStripMenuItem,
-            this.graficaStockPorCategoriaToolStripMenuItem});
+            this.graficaStockPorCategoriaToolStripMenuItem,
+            this.graficaIDProdcutoPorCantidadToolStripMenuItem,
+            this.toolStripMenuItem3,
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem5,
+            this.toolStripMenuItem6,
+            this.toolStripMenuItem7});
             this.graficosToolStripMenuItem.Name = "graficosToolStripMenuItem";
             this.graficosToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
             this.graficosToolStripMenuItem.Text = "Graficos";
@@ -184,6 +196,43 @@
             this.graficaStockPorCategoriaToolStripMenuItem.Text = "2. Grafica Stock por categoria";
             this.graficaStockPorCategoriaToolStripMenuItem.Click += new System.EventHandler(this.graficaStockPorCategoriaToolStripMenuItem_Click);
             // 
+            // graficaIDProdcutoPorCantidadToolStripMenuItem
+            // 
+            this.graficaIDProdcutoPorCantidadToolStripMenuItem.Name = "graficaIDProdcutoPorCantidadToolStripMenuItem";
+            this.graficaIDProdcutoPorCantidadToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.graficaIDProdcutoPorCantidadToolStripMenuItem.Text = "3. Grafica IDProdcuto por cantidad";
+            this.graficaIDProdcutoPorCantidadToolStripMenuItem.Click += new System.EventHandler(this.graficaIDProdcutoPorCantidadToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(269, 22);
+            this.toolStripMenuItem3.Text = "4. Grafica precio medio por categoria";
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(269, 22);
+            this.toolStripMenuItem4.Text = "5. Grafica cantidad por sumatotal";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(256, 22);
+            this.toolStripMenuItem5.Text = "6. ";
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(256, 22);
+            this.toolStripMenuItem6.Text = "7. ";
+            // 
+            // toolStripMenuItem7
+            // 
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(256, 22);
+            this.toolStripMenuItem7.Text = "8.";
+            // 
             // VistaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -220,6 +269,12 @@
         private System.Windows.Forms.ToolStripMenuItem tablasConCamposCalculadosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem graficaTotalMetodoDePagoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem graficaStockPorCategoriaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem graficaIDProdcutoPorCantidadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
     }
 }
 

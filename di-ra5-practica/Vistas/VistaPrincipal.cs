@@ -85,5 +85,11 @@ namespace di_ra5_practica
             Vistas.Graficos.Grafico2 vistaGrafico2 = new Vistas.Graficos.Grafico2();
             vistaGrafico2.ShowDialog();
         }
+
+        private void graficaIDProdcutoPorCantidadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vistas.Graficos.Grafico3 vistaGrafico3 = new Vistas.Graficos.Grafico3();
+            vistaGrafico3.ShowDialog();
+        }
     }
 }

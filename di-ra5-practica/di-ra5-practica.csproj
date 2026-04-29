@@ -107,6 +107,12 @@
   <ItemGroup>
     <Compile Include="Controladores\ProductosControlador.cs" />
     <Compile Include="Controladores\ComprasControlador.cs" />
+    <Compile Include="Vistas\Graficos\Grafico3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Graficos\Grafico3.Designer.cs">
+      <DependentUpon>Grafico3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Graficos\Grafico2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,7 +184,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Reportes\ReportGraficosCompras1.rdlc" />
+    <EmbeddedResource Include="Reportes\ReportGraficosCompras2.rdlc" />
     <EmbeddedResource Include="Reportes\ReportGraficosProductos1.rdlc" />
+    <EmbeddedResource Include="Reportes\ReportGraficosProductos2.rdlc" />
     <EmbeddedResource Include="Reportes\ReportProductos.rdlc" />
     <EmbeddedResource Include="Reportes\ReportCompras.rdlc" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -190,6 +198,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\Graficos\Grafico3.resx">
+      <DependentUpon>Grafico3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Graficos\Grafico2.resx">
       <DependentUpon>Grafico2.cs</DependentUpon>
     </EmbeddedResource>

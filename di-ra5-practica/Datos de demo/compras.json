@@ -439,7 +439,7 @@
     "Id": 49,
     "IdProducto": 149,
     "Cantidad": 9,
-    "FechaCompra": "2026-02-19T12:30:00",
+    "FechaCompra": "2026-03-19T12:30:00",
     "PrecioUnitario": 3.8,
     "Proveedor": "Proveedor AW",
     "MetodoPago": "Transferencia"
@@ -448,7 +448,7 @@
     "Id": 50,
     "IdProducto": 150,
     "Cantidad": 10,
-    "FechaCompra": "2026-02-20T13:45:00",
+    "FechaCompra": "2026-03-20T13:45:00",
     "PrecioUnitario": 2.9,
     "Proveedor": "Proveedor AX",
     "MetodoPago": "Bizum"

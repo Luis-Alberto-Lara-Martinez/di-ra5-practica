@@ -220,8 +220,9 @@
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(256, 22);
-            this.toolStripMenuItem5.Text = "6. ";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(269, 22);
+            this.toolStripMenuItem5.Text = "6. Grafica por mes";
+            this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
             // 
             // toolStripMenuItem6
             // 

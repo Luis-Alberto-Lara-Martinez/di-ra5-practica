@@ -107,6 +107,12 @@
   <ItemGroup>
     <Compile Include="Controladores\ProductosControlador.cs" />
     <Compile Include="Controladores\ComprasControlador.cs" />
+    <Compile Include="Vistas\Graficos\Grafico2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Graficos\Grafico2.Designer.cs">
+      <DependentUpon>Grafico2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Graficos\Grafico1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +190,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\Graficos\Grafico2.resx">
+      <DependentUpon>Grafico2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Graficos\Grafico1.resx">
       <DependentUpon>Grafico1.cs</DependentUpon>
     </EmbeddedResource>

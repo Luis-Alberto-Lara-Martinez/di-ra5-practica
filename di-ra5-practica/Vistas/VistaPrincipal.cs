@@ -82,7 +82,8 @@ namespace di_ra5_practica
 
         private void graficaStockPorCategoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Vistas.Graficos.Grafico2 vistaGrafico2 = new Vistas.Graficos.Grafico2();
+            vistaGrafico2.ShowDialog();
         }
     }
 }

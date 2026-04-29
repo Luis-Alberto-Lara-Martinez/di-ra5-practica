@@ -43,6 +43,8 @@
             this.tablasConCamposCalculadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.graficaTotalMetodoDePagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.graficaStockPorCategoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -140,6 +142,9 @@
             // 
             // graficosToolStripMenuItem
             // 
+            this.graficosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.graficaTotalMetodoDePagoToolStripMenuItem,
+            this.graficaStockPorCategoriaToolStripMenuItem});
             this.graficosToolStripMenuItem.Name = "graficosToolStripMenuItem";
             this.graficosToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
             this.graficosToolStripMenuItem.Text = "Graficos";
@@ -164,6 +169,20 @@
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // graficaTotalMetodoDePagoToolStripMenuItem
+            // 
+            this.graficaTotalMetodoDePagoToolStripMenuItem.Name = "graficaTotalMetodoDePagoToolStripMenuItem";
+            this.graficaTotalMetodoDePagoToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.graficaTotalMetodoDePagoToolStripMenuItem.Text = "1. Grafica total metodo de pago";
+            this.graficaTotalMetodoDePagoToolStripMenuItem.Click += new System.EventHandler(this.graficaTotalMetodoDePagoToolStripMenuItem_Click);
+            // 
+            // graficaStockPorCategoriaToolStripMenuItem
+            // 
+            this.graficaStockPorCategoriaToolStripMenuItem.Name = "graficaStockPorCategoriaToolStripMenuItem";
+            this.graficaStockPorCategoriaToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.graficaStockPorCategoriaToolStripMenuItem.Text = "2. Grafica Stock por categoria";
+            this.graficaStockPorCategoriaToolStripMenuItem.Click += new System.EventHandler(this.graficaStockPorCategoriaToolStripMenuItem_Click);
             // 
             // VistaPrincipal
             // 
@@ -199,6 +218,8 @@
         private System.Windows.Forms.ToolStripMenuItem comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem graficosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tablasConCamposCalculadosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem graficaTotalMetodoDePagoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem graficaStockPorCategoriaToolStripMenuItem;
     }
 }
 

@@ -73,5 +73,16 @@ namespace di_ra5_practica
             Vistas.Tablas.VistaTabla8 vistaTabla8 = new Vistas.Tablas.VistaTabla8();
             vistaTabla8.ShowDialog();
         }
+
+        private void graficaTotalMetodoDePagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vistas.Graficos.Grafico1 vistaGrafico1 = new Vistas.Graficos.Grafico1();
+            vistaGrafico1.ShowDialog();
+        }
+
+        private void graficaStockPorCategoriaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

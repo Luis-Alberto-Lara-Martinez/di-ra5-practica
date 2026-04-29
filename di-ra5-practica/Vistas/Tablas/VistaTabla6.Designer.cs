@@ -42,7 +42,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(455, 35);
             this.label1.TabIndex = 0;
-            this.label1.Text = "6. Productos por Metodo de pago";
+            this.label1.Text = "6. Compras por metodo de pago";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1

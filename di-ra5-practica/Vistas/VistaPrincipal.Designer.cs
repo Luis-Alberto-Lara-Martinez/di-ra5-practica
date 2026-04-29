@@ -41,6 +41,8 @@
             this.comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.graficosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tablasConCamposCalculadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +60,9 @@
             // archivoToolStripMenuItem
             // 
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tablasToolStripMenuItem});
+            this.tablasToolStripMenuItem,
+            this.graficosToolStripMenuItem,
+            this.tablasConCamposCalculadosToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
@@ -147,6 +151,18 @@
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
+            // graficosToolStripMenuItem
+            // 
+            this.graficosToolStripMenuItem.Name = "graficosToolStripMenuItem";
+            this.graficosToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.graficosToolStripMenuItem.Text = "Graficos";
+            // 
+            // tablasConCamposCalculadosToolStripMenuItem
+            // 
+            this.tablasConCamposCalculadosToolStripMenuItem.Name = "tablasConCamposCalculadosToolStripMenuItem";
+            this.tablasConCamposCalculadosToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.tablasConCamposCalculadosToolStripMenuItem.Text = "Tablas con Campos calculados";
+            // 
             // VistaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -179,6 +195,8 @@
         private System.Windows.Forms.ToolStripMenuItem comprasPorMetodoDePagoTarjetaFiltro4ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem comprasPorMetodoDePagoTarjetaFiltro5ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem comprasPorMetodoDePagoTarjetaFiltro6ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem graficosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tablasConCamposCalculadosToolStripMenuItem;
     }
 }
 

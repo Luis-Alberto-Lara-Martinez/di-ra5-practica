@@ -64,11 +64,18 @@
     <ReportSection>
       <Body>
         <ReportItems>
-          <Chart Name="Chart1">
+          <Chart Name="Chart2">
             <ChartCategoryHierarchy>
               <ChartMembers>
                 <ChartMember>
-                  <Group Name="Chart1_CategoryGroup">
+                  <Label />
+                </ChartMember>
+              </ChartMembers>
+            </ChartCategoryHierarchy>
+            <ChartSeriesHierarchy>
+              <ChartMembers>
+                <ChartMember>
+                  <Group Name="Chart2_SeriesGroup">
                     <GroupExpressions>
                       <GroupExpression>=Fields!Categoria.Value</GroupExpression>
                     </GroupExpressions>
@@ -79,13 +86,6 @@
                     </SortExpression>
                   </SortExpressions>
                   <Label>=Fields!Categoria.Value</Label>
-                </ChartMember>
-              </ChartMembers>
-            </ChartCategoryHierarchy>
-            <ChartSeriesHierarchy>
-              <ChartMembers>
-                <ChartMember>
-                  <Label>Id</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartSeriesHierarchy>
@@ -100,17 +100,13 @@
                       <ChartDataLabel>
                         <Style />
                       </ChartDataLabel>
-                      <Style>
-                        <BackgroundGradientType>None</BackgroundGradientType>
-                      </Style>
+                      <Style />
                       <ChartMarker>
                         <Style />
                       </ChartMarker>
                       <DataElementOutput>Output</DataElementOutput>
                     </ChartDataPoint>
                   </ChartDataPoints>
-                  <Type>Shape</Type>
-                  <Subtype>Doughnut</Subtype>
                   <Style />
                   <ChartEmptyPoints>
                     <Style />
@@ -413,7 +409,7 @@
               </Style>
             </ChartNoDataMessage>
             <DataSetName>Productos</DataSetName>
-            <Height>8.93912cm</Height>
+            <Height>9.01849cm</Height>
             <Width>16.81016cm</Width>
             <Style>
               <Border>
@@ -425,7 +421,7 @@
             </Style>
           </Chart>
         </ReportItems>
-        <Height>3.51934in</Height>
+        <Height>3.55059in</Height>
         <Style />
       </Body>
       <Width>6.61817in</Width>

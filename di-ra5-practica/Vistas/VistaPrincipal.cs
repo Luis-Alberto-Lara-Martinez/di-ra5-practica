@@ -133,5 +133,11 @@ namespace di_ra5_practica
             VistaInfoCompras vistaInfoCompras = new VistaInfoCompras();
             vistaInfoCompras.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            VistaInfoProductos vistaInfoProductos = new VistaInfoProductos();
+            vistaInfoProductos.ShowDialog();
+        }
     }
 }

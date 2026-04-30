@@ -381,7 +381,7 @@
             </ChartLegends>
             <ChartTitles>
               <ChartTitle Name="Default">
-                <Caption>Título del gráfico</Caption>
+                <Caption>Conteo de ID por Categoria</Caption>
                 <Style>
                   <BackgroundGradientType>None</BackgroundGradientType>
                   <FontSize>9pt</FontSize>

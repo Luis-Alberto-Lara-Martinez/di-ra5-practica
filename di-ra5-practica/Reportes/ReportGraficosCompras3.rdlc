@@ -374,7 +374,7 @@
             </ChartLegends>
             <ChartTitles>
               <ChartTitle Name="Default">
-                <Caption>Título del gráfico</Caption>
+                <Caption>Valor total por metodo de pago</Caption>
                 <Style>
                   <BackgroundGradientType>None</BackgroundGradientType>
                   <FontSize>9pt</FontSize>

@@ -66,12 +66,12 @@
                       <GroupExpression>=Fields!MetodoPago.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
-                  <Label>=Fields!MetodoPago.Value</Label>
                   <SortExpressions>
                     <SortExpression>
                       <Value>=Fields!MetodoPago.Value</Value>
                     </SortExpression>
                   </SortExpressions>
+                  <Label>=Fields!MetodoPago.Value</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartCategoryHierarchy>
@@ -92,6 +92,8 @@
                       </ChartDataPointValues>
                       <ChartDataLabel>
                         <Style />
+                        <UseValueAsLabel>true</UseValueAsLabel>
+                        <Visible>true</Visible>
                       </ChartDataLabel>
                       <Style />
                       <ChartMarker>

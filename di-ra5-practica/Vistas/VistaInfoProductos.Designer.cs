@@ -147,7 +147,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(164, 95);
             this.button7.TabIndex = 9;
-            this.button7.Text = "Gráfica porcentaje de productos por categoria";
+            this.button7.Text = "Gráfica conteo de productos por categoria";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 

@@ -61,37 +61,38 @@
             <ChartCategoryHierarchy>
               <ChartMembers>
                 <ChartMember>
-                  <Group Name="Chart1_CategoryGroup">
-                    <GroupExpressions>
-                      <GroupExpression>=Fields!IdProducto.Value</GroupExpression>
-                    </GroupExpressions>
-                  </Group>
-                  <Label>=Fields!IdProducto.Value</Label>
-                  <SortExpressions>
-                    <SortExpression>
-                      <Value>=Fields!IdProducto.Value</Value>
-                    </SortExpression>
-                  </SortExpressions>
+                  <Label />
                 </ChartMember>
               </ChartMembers>
             </ChartCategoryHierarchy>
             <ChartSeriesHierarchy>
               <ChartMembers>
                 <ChartMember>
-                  <Label>Cantidad</Label>
+                  <Group Name="Chart1_SeriesGroup">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!Proveedor.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!Proveedor.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <Label>=Fields!Proveedor.Value</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartSeriesHierarchy>
             <ChartData>
               <ChartSeriesCollection>
-                <ChartSeries Name="Cantidad">
+                <ChartSeries Name="PrecioUnitario">
                   <ChartDataPoints>
                     <ChartDataPoint>
                       <ChartDataPointValues>
-                        <Y>=Sum(Fields!Cantidad.Value)</Y>
+                        <Y>=Sum(Fields!PrecioUnitario.Value*Fields!Cantidad.Value)</Y>
                       </ChartDataPointValues>
                       <ChartDataLabel>
                         <Style />
+                        <UseValueAsLabel>true</UseValueAsLabel>
                       </ChartDataLabel>
                       <Style />
                       <ChartMarker>
@@ -100,7 +101,6 @@
                       <DataElementOutput>Output</DataElementOutput>
                     </ChartDataPoint>
                   </ChartDataPoints>
-                  <Type>Shape</Type>
                   <Style />
                   <ChartEmptyPoints>
                     <Style />
@@ -358,6 +358,7 @@
                   <BackgroundGradientType>None</BackgroundGradientType>
                   <FontSize>8pt</FontSize>
                 </Style>
+                <Position>TopLeft</Position>
                 <ChartLegendTitle>
                   <Caption />
                   <Style>
@@ -372,7 +373,7 @@
             </ChartLegends>
             <ChartTitles>
               <ChartTitle Name="Default">
-                <Caption>IDProducto por cantidad</Caption>
+                <Caption>Título del gráfico</Caption>
                 <Style>
                   <BackgroundGradientType>None</BackgroundGradientType>
                   <FontSize>9pt</FontSize>
@@ -402,7 +403,7 @@
               </Style>
             </ChartNoDataMessage>
             <DataSetName>Compras</DataSetName>
-            <Height>7.56328cm</Height>
+            <Height>8.01308cm</Height>
             <Width>16.51cm</Width>
             <Style>
               <Border>
@@ -414,7 +415,7 @@
             </Style>
           </Chart>
         </ReportItems>
-        <Height>2.97767in</Height>
+        <Height>3.15475in</Height>
         <Style />
       </Body>
       <Width>6.5in</Width>

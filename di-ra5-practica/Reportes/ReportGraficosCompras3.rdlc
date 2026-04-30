@@ -63,22 +63,22 @@
                 <ChartMember>
                   <Group Name="Chart2_CategoryGroup">
                     <GroupExpressions>
-                      <GroupExpression>=Fields!Id.Value</GroupExpression>
+                      <GroupExpression>=Fields!MetodoPago.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
-                  <Label>=Fields!Id.Value</Label>
                   <SortExpressions>
                     <SortExpression>
-                      <Value>=Fields!Id.Value</Value>
+                      <Value>=Fields!MetodoPago.Value</Value>
                     </SortExpression>
                   </SortExpressions>
+                  <Label>=Fields!MetodoPago.Value</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartCategoryHierarchy>
             <ChartSeriesHierarchy>
               <ChartMembers>
                 <ChartMember>
-                  <Label>Precio Unitario</Label>
+                  <Label>Cantidad</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartSeriesHierarchy>
@@ -88,10 +88,12 @@
                   <ChartDataPoints>
                     <ChartDataPoint>
                       <ChartDataPointValues>
-                        <Y>=Sum(Fields!PrecioUnitario.Value)</Y>
+                        <Y>=Sum(Fields!PrecioUnitario.Value*Fields!Cantidad.Value)</Y>
                       </ChartDataPointValues>
                       <ChartDataLabel>
                         <Style />
+                        <UseValueAsLabel>true</UseValueAsLabel>
+                        <Visible>true</Visible>
                       </ChartDataLabel>
                       <Style />
                       <ChartMarker>
@@ -100,7 +102,6 @@
                       <DataElementOutput>Output</DataElementOutput>
                     </ChartDataPoint>
                   </ChartDataPoints>
-                  <Type>Line</Type>
                   <Style />
                   <ChartEmptyPoints>
                     <Style />
@@ -403,7 +404,7 @@
               </Style>
             </ChartNoDataMessage>
             <DataSetName>Compras</DataSetName>
-            <Height>8.75391cm</Height>
+            <Height>9.15078cm</Height>
             <Width>16.51cm</Width>
             <Style>
               <Border>
@@ -415,7 +416,7 @@
             </Style>
           </Chart>
         </ReportItems>
-        <Height>3.44642in</Height>
+        <Height>3.60267in</Height>
         <Style />
       </Body>
       <Width>6.5in</Width>

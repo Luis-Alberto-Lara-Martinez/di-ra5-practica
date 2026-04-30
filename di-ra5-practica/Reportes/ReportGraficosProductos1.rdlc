@@ -57,28 +57,28 @@
     <ReportSection>
       <Body>
         <ReportItems>
-          <Chart Name="Chart2">
+          <Chart Name="Chart1">
             <ChartCategoryHierarchy>
               <ChartMembers>
                 <ChartMember>
-                  <Group Name="Chart2_CategoryGroup">
-                    <GroupExpressions>
-                      <GroupExpression>=Fields!Categoria.Value</GroupExpression>
-                    </GroupExpressions>
-                  </Group>
-                  <Label>=Fields!Categoria.Value</Label>
-                  <SortExpressions>
-                    <SortExpression>
-                      <Value>=Fields!Categoria.Value</Value>
-                    </SortExpression>
-                  </SortExpressions>
+                  <Label />
                 </ChartMember>
               </ChartMembers>
             </ChartCategoryHierarchy>
             <ChartSeriesHierarchy>
               <ChartMembers>
                 <ChartMember>
-                  <Label>Stock Actual</Label>
+                  <Group Name="Chart1_SeriesGroup">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!Categoria.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!Categoria.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <Label>=Fields!Categoria.Value</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartSeriesHierarchy>
@@ -88,10 +88,12 @@
                   <ChartDataPoints>
                     <ChartDataPoint>
                       <ChartDataPointValues>
-                        <Y>=Sum(Fields!StockActual.Value)</Y>
+                        <Y>=Count(Fields!StockActual.Value)</Y>
                       </ChartDataPointValues>
                       <ChartDataLabel>
                         <Style />
+                        <UseValueAsLabel>true</UseValueAsLabel>
+                        <Visible>true</Visible>
                       </ChartDataLabel>
                       <Style />
                       <ChartMarker>
@@ -100,7 +102,6 @@
                       <DataElementOutput>Output</DataElementOutput>
                     </ChartDataPoint>
                   </ChartDataPoints>
-                  <Type>Shape</Type>
                   <Style />
                   <ChartEmptyPoints>
                     <Style />
@@ -358,6 +359,7 @@
                   <BackgroundGradientType>None</BackgroundGradientType>
                   <FontSize>8pt</FontSize>
                 </Style>
+                <Position>TopLeft</Position>
                 <ChartLegendTitle>
                   <Caption />
                   <Style>
@@ -372,7 +374,7 @@
             </ChartLegends>
             <ChartTitles>
               <ChartTitle Name="Default">
-                <Caption>Stock por categoria</Caption>
+                <Caption>Stock actual por categoria</Caption>
                 <Style>
                   <BackgroundGradientType>None</BackgroundGradientType>
                   <FontSize>9pt</FontSize>
@@ -402,8 +404,8 @@
               </Style>
             </ChartNoDataMessage>
             <DataSetName>Productos</DataSetName>
-            <Height>7.24578cm</Height>
-            <Width>17.78912cm</Width>
+            <Height>10.36787cm</Height>
+            <Width>19.66766cm</Width>
             <Style>
               <Border>
                 <Color>LightGrey</Color>
@@ -414,10 +416,10 @@
             </Style>
           </Chart>
         </ReportItems>
-        <Height>2.85267in</Height>
+        <Height>4.08184in</Height>
         <Style />
       </Body>
-      <Width>7.00359in</Width>
+      <Width>7.74317in</Width>
       <Page>
         <PageHeight>29.7cm</PageHeight>
         <PageWidth>21cm</PageWidth>

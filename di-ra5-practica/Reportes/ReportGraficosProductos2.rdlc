@@ -61,24 +61,24 @@
             <ChartCategoryHierarchy>
               <ChartMembers>
                 <ChartMember>
-                  <Group Name="Chart1_CategoryGroup">
-                    <GroupExpressions>
-                      <GroupExpression>=Fields!Categoria.Value</GroupExpression>
-                    </GroupExpressions>
-                  </Group>
-                  <Label>=Fields!Categoria.Value</Label>
-                  <SortExpressions>
-                    <SortExpression>
-                      <Value>=Fields!Categoria.Value</Value>
-                    </SortExpression>
-                  </SortExpressions>
+                  <Label />
                 </ChartMember>
               </ChartMembers>
             </ChartCategoryHierarchy>
             <ChartSeriesHierarchy>
               <ChartMembers>
                 <ChartMember>
-                  <Label>Precio Unitario</Label>
+                  <Group Name="Chart1_SeriesGroup">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!Categoria.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!Categoria.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <Label>=Fields!Categoria.Value</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartSeriesHierarchy>
@@ -92,6 +92,8 @@
                       </ChartDataPointValues>
                       <ChartDataLabel>
                         <Style />
+                        <UseValueAsLabel>true</UseValueAsLabel>
+                        <Visible>true</Visible>
                       </ChartDataLabel>
                       <Style />
                       <ChartMarker>
@@ -100,7 +102,6 @@
                       <DataElementOutput>Output</DataElementOutput>
                     </ChartDataPoint>
                   </ChartDataPoints>
-                  <Type>Shape</Type>
                   <Style />
                   <ChartEmptyPoints>
                     <Style />
@@ -358,6 +359,7 @@
                   <BackgroundGradientType>None</BackgroundGradientType>
                   <FontSize>8pt</FontSize>
                 </Style>
+                <Position>TopLeft</Position>
                 <ChartLegendTitle>
                   <Caption />
                   <Style>
@@ -372,7 +374,7 @@
             </ChartLegends>
             <ChartTitles>
               <ChartTitle Name="Default">
-                <Caption>Precio medio por categoria</Caption>
+                <Caption>Título del gráfico</Caption>
                 <Style>
                   <BackgroundGradientType>None</BackgroundGradientType>
                   <FontSize>9pt</FontSize>
@@ -402,8 +404,8 @@
               </Style>
             </ChartNoDataMessage>
             <DataSetName>Productos</DataSetName>
-            <Height>7.35162cm</Height>
-            <Width>16.51cm</Width>
+            <Height>9.25662cm</Height>
+            <Width>16.88953cm</Width>
             <Style>
               <Border>
                 <Color>LightGrey</Color>
@@ -414,10 +416,10 @@
             </Style>
           </Chart>
         </ReportItems>
-        <Height>2.89434in</Height>
+        <Height>3.64434in</Height>
         <Style />
       </Body>
-      <Width>6.5in</Width>
+      <Width>6.64942in</Width>
       <Page>
         <PageHeight>29.7cm</PageHeight>
         <PageWidth>21cm</PageWidth>

@@ -203,6 +203,12 @@
     <Compile Include="Vistas\Tablas\VistaTabla1.Designer.cs">
       <DependentUpon>VistaTabla1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\VistaInfoProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VistaInfoProductos.Designer.cs">
+      <DependentUpon>VistaInfoProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\VistaInfoCompras.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -285,6 +291,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Tablas\VistaTabla1.resx">
       <DependentUpon>VistaTabla1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VistaInfoProductos.resx">
+      <DependentUpon>VistaInfoProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\VistaInfoCompras.resx">
       <DependentUpon>VistaInfoCompras.cs</DependentUpon>

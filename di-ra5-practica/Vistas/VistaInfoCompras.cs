@@ -37,7 +37,8 @@ namespace di_ra5_practica.Vistas
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Vistas.Tablas.VistaTabla8 vistaTabla8 = new Vistas.Tablas.VistaTabla8();
+            vistaTabla8.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)

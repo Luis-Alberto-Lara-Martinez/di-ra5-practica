@@ -216,7 +216,7 @@
     <EmbeddedResource Include="Reportes\ReportGraficosCompras3.rdlc" />
     <EmbeddedResource Include="Reportes\ReportGraficosCompras1.rdlc" />
     <EmbeddedResource Include="Reportes\ReportGraficosCompras2.rdlc" />
-    <EmbeddedResource Include="Reportes\ReportGraficosCompras4.rdlc" />
+    <EmbeddedResource Include="Reportes\ReportGraficosProductos5.rdlc" />
     <EmbeddedResource Include="Reportes\ReportGraficosProductos1.rdlc" />
     <EmbeddedResource Include="Reportes\ReportGraficosProductos4.rdlc" />
     <EmbeddedResource Include="Reportes\ReportGraficosProductos3.rdlc" />

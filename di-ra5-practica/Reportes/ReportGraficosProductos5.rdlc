@@ -9,32 +9,35 @@
       </ConnectionProperties>
       <rd:DataSourceID>900fecba-b84e-4c0d-a928-e2e47cee473c</rd:DataSourceID>
     </DataSource>
+    <DataSource Name="di_ra5_practicaModelos1">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>9890f709-ebcd-4dd0-bf74-9edf5ba8ed4a</rd:DataSourceID>
+    </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="Compras">
+    <DataSet Name="Productos">
       <Query>
-        <DataSourceName>di_ra5_practicaModelos</DataSourceName>
+        <DataSourceName>di_ra5_practicaModelos1</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
-        <Field Name="Cantidad">
-          <DataField>Cantidad</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
+        <Field Name="Categoria">
+          <DataField>Categoria</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="FechaCompra">
-          <DataField>FechaCompra</DataField>
-          <rd:TypeName>System.DateTime</rd:TypeName>
+        <Field Name="Descripcion">
+          <DataField>Descripcion</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="Id">
           <DataField>Id</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
-        <Field Name="IdProducto">
-          <DataField>IdProducto</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
-        </Field>
-        <Field Name="MetodoPago">
-          <DataField>MetodoPago</DataField>
+        <Field Name="Nombre">
+          <DataField>Nombre</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="PrecioUnitario">
@@ -45,11 +48,15 @@
           <DataField>Proveedor</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="StockActual">
+          <DataField>StockActual</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>di_ra5_practica.Modelos</rd:DataSetName>
-        <rd:TableName>Compras</rd:TableName>
-        <rd:ObjectDataSourceType>di_ra5_practica.Modelos.Compras, di-ra5-practica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+        <rd:TableName>Productos</rd:TableName>
+        <rd:ObjectDataSourceType>di_ra5_practica.Modelos.Productos, di-ra5-practica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
@@ -63,43 +70,47 @@
                 <ChartMember>
                   <Group Name="Chart1_CategoryGroup">
                     <GroupExpressions>
-                      <GroupExpression>=Fields!FechaCompra.Value</GroupExpression>
+                      <GroupExpression>=Fields!Categoria.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
-                  <Label>=Fields!FechaCompra.Value</Label>
                   <SortExpressions>
                     <SortExpression>
-                      <Value>=Fields!FechaCompra.Value</Value>
+                      <Value>=Fields!Categoria.Value</Value>
                     </SortExpression>
                   </SortExpressions>
+                  <Label>=Fields!Categoria.Value</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartCategoryHierarchy>
             <ChartSeriesHierarchy>
               <ChartMembers>
                 <ChartMember>
-                  <Label>Fecha Compra</Label>
+                  <Label>Id</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartSeriesHierarchy>
             <ChartData>
               <ChartSeriesCollection>
-                <ChartSeries Name="FechaCompra">
+                <ChartSeries Name="Id">
                   <ChartDataPoints>
                     <ChartDataPoint>
                       <ChartDataPointValues>
-                        <Y>=Count(Fields!FechaCompra.Value)</Y>
+                        <Y>=Count(Fields!Id.Value)</Y>
                       </ChartDataPointValues>
                       <ChartDataLabel>
                         <Style />
                       </ChartDataLabel>
-                      <Style />
+                      <Style>
+                        <BackgroundGradientType>None</BackgroundGradientType>
+                      </Style>
                       <ChartMarker>
                         <Style />
                       </ChartMarker>
                       <DataElementOutput>Output</DataElementOutput>
                     </ChartDataPoint>
                   </ChartDataPoints>
+                  <Type>Shape</Type>
+                  <Subtype>Doughnut</Subtype>
                   <Style />
                   <ChartEmptyPoints>
                     <Style />
@@ -401,8 +412,8 @@
                 <VerticalAlign>Top</VerticalAlign>
               </Style>
             </ChartNoDataMessage>
-            <DataSetName>Compras</DataSetName>
-            <Height>7.98662cm</Height>
+            <DataSetName>Productos</DataSetName>
+            <Height>8.93912cm</Height>
             <Width>16.81016cm</Width>
             <Style>
               <Border>
@@ -414,7 +425,7 @@
             </Style>
           </Chart>
         </ReportItems>
-        <Height>3.14434in</Height>
+        <Height>3.51934in</Height>
         <Style />
       </Body>
       <Width>6.61817in</Width>

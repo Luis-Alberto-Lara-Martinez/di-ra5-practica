@@ -75,5 +75,11 @@ namespace di_ra5_practica.Vistas
             Vistas.Graficos.Grafico8 grafico8 = new Vistas.Graficos.Grafico8();
             grafico8.Show();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Vistas.Tablas.VistaTabla8 vistaTabla8 = new Vistas.Tablas.VistaTabla8();
+            vistaTabla8.Show();
+        }
     }
 }

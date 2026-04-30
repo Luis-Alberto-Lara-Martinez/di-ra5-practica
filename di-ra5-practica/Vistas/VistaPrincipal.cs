@@ -109,5 +109,11 @@ namespace di_ra5_practica
             Vistas.Graficos.Grafico6 vistaGrafico6 = new Vistas.Graficos.Grafico6();
             vistaGrafico6.ShowDialog();
         }
+
+        private void toolStripMenuItem6_Click(object sender, EventArgs e)
+        {
+            Vistas.Graficos.Grafico7 vistaGrafico7 = new Vistas.Graficos.Grafico7();
+            vistaGrafico7.ShowDialog();
+        }
     }
 }

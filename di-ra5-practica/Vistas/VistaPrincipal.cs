@@ -1,5 +1,6 @@
 ﻿using di_ra5_practica.Controladores;
 using di_ra5_practica.Modelos;
+using di_ra5_practica.Vistas;
 using Microsoft.Reporting.WinForms;
 using System;
 using System.Collections.Generic;
@@ -120,6 +121,17 @@ namespace di_ra5_practica
         {
             Vistas.Graficos.Grafico8 vistaGrafico8 = new Vistas.Graficos.Grafico8();
             vistaGrafico8.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            VistaInfoCompras vistaInfoCompras = new VistaInfoCompras();
+            vistaInfoCompras.ShowDialog();
         }
     }
 }

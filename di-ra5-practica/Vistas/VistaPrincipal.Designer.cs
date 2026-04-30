@@ -165,42 +165,42 @@
             // graficaTotalMetodoDePagoToolStripMenuItem
             // 
             this.graficaTotalMetodoDePagoToolStripMenuItem.Name = "graficaTotalMetodoDePagoToolStripMenuItem";
-            this.graficaTotalMetodoDePagoToolStripMenuItem.Size = new System.Drawing.Size(341, 26);
+            this.graficaTotalMetodoDePagoToolStripMenuItem.Size = new System.Drawing.Size(448, 26);
             this.graficaTotalMetodoDePagoToolStripMenuItem.Text = "1. Grafica total metodo de pago";
             this.graficaTotalMetodoDePagoToolStripMenuItem.Click += new System.EventHandler(this.graficaTotalMetodoDePagoToolStripMenuItem_Click);
             // 
             // graficaStockPorCategoriaToolStripMenuItem
             // 
             this.graficaStockPorCategoriaToolStripMenuItem.Name = "graficaStockPorCategoriaToolStripMenuItem";
-            this.graficaStockPorCategoriaToolStripMenuItem.Size = new System.Drawing.Size(341, 26);
+            this.graficaStockPorCategoriaToolStripMenuItem.Size = new System.Drawing.Size(448, 26);
             this.graficaStockPorCategoriaToolStripMenuItem.Text = "2. Grafica Stock por categoria";
             this.graficaStockPorCategoriaToolStripMenuItem.Click += new System.EventHandler(this.graficaStockPorCategoriaToolStripMenuItem_Click);
             // 
             // graficaIDProdcutoPorCantidadToolStripMenuItem
             // 
             this.graficaIDProdcutoPorCantidadToolStripMenuItem.Name = "graficaIDProdcutoPorCantidadToolStripMenuItem";
-            this.graficaIDProdcutoPorCantidadToolStripMenuItem.Size = new System.Drawing.Size(341, 26);
+            this.graficaIDProdcutoPorCantidadToolStripMenuItem.Size = new System.Drawing.Size(448, 26);
             this.graficaIDProdcutoPorCantidadToolStripMenuItem.Text = "3. Grafica IDProdcuto por cantidad";
             this.graficaIDProdcutoPorCantidadToolStripMenuItem.Click += new System.EventHandler(this.graficaIDProdcutoPorCantidadToolStripMenuItem_Click);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(341, 26);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(448, 26);
             this.toolStripMenuItem3.Text = "4. Grafica precio medio por categoria";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(341, 26);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(448, 26);
             this.toolStripMenuItem4.Text = "5. Grafica cantidad por sumatotal";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(341, 26);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(448, 26);
             this.toolStripMenuItem5.Text = "6. Grafica por mes";
             this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
             // 
@@ -214,8 +214,9 @@
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(341, 26);
-            this.toolStripMenuItem7.Text = "8.";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(448, 26);
+            this.toolStripMenuItem7.Text = "8. Gráfica de Stock por proveedor";
+            this.toolStripMenuItem7.Click += new System.EventHandler(this.toolStripMenuItem7_Click);
             // 
             // tablasConCamposCalculadosToolStripMenuItem
             // 
